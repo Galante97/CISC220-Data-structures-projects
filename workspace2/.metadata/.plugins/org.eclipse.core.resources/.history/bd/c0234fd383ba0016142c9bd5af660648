@@ -1,0 +1,33 @@
+/*
+ * menu.hpp
+ *
+ *  Created on: Dec 4, 2016
+ *      Author: James
+ */
+
+#ifndef MENU_HPP_
+#define MENU_HPP_
+
+#include "setup.hpp"
+#include <iostream>
+#include <stdlib.h>
+using namespace std;
+
+
+class menu {
+	friend class bookLL;
+	friend class bNode;
+	friend class setup;
+
+
+
+public:
+	menu();
+	intializeMenu;
+
+};
+
+
+
+
+#endif /* MENU_HPP_ */

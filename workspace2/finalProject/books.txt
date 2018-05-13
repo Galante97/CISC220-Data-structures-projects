@@ -1,0 +1,251 @@
+Title		author		category		year published		pages	
+About a Silence in Literature	|	Živorad Stojković	|	Science fiction	|	1920	|	155	 /
+Alice's Adventures in Wonderland	|	Lewis Carroll	|	Satire	|	1865	|	952	 /
+All Quiet on the Western Front	|	Erich Maria Remarque	|	Drama	|	1929	|	495	 /
+American Psycho	|	Bret Easton Ellis	|	Action and Adventure	|	1991	|	410	 /
+An Area of Darkness	|	V. S. Naipaul	|	Romance	|	1964	|	207	 /
+Angaray	|	Sajjad Zaheer	|	Mystery	|	1932	|	980	 /
+The Anarchist Cookbook	|	William Powell	|	Horror	|	1971	|	620	 /
+Animal Farm	|	George Orwell	|	Self help	|	1945	|	581	 /
+Apocalypse Culture	|	Adam Parfrey	|	Health	|	1987	|	117	 /
+Areopagitica	|	John Milton	|	Guide	|	1644	|	447	 /
+Bad Samaritans: The Myth of Free Trade and the Secret History of Capitalism	|	Ha-Joon Chang	|	Travel	|	2008	|	793	 /
+Big River, Big Sea – Untold Stories of 1949	|	Lung Ying-tai	|	Children's	|	2009	|	896	 /
+Borstal Boy	|	Brendan Behan	|	Religion, Spirituality & New Age	|	1958	|	982	 /
+The Boys	|	Garth Ennis	|	Science	|	2012	|	104	 /
+Brave New World	|	Aldous Huxley	|	History	|	1932	|	973	 /
+Burger's Daughter	|	Nadine Gordimer	|	Math	|	1979	|	1038	 /
+By Grand Central Station I Sat Down and Wept	|	Elizabeth Smart	|	Anthology	|	1945	|	978	 /
+Candide	|	Voltaire	|	Poetry	|	1759	|	1014	 /
+The Canterbury Tales	|	Geoffrey Chaucer	|	Encyclopedias	|	1430	|	676	 /
+Castration of the Wind	|	Prvoslav Vujčić	|	Dictionaries	|	1803	|	998	 /
+Catch-22	|	Joseph Heller	|	Comics	|	1961	|	53	 /
+The Country Girls	|	Edna O'Brien	|	Art	|	1960	|	726	 /
+The Cover-up General	|	Edwin Giltay	|	Cookbooks	|	2014	|	841	 /
+Curved River	|	Živojin Pavlović	|	Diaries	|	1963	|	105	 /
+The Da Vinci Code	|	Dan Brown	|	Journals	|	2003	|	106	 /
+The Dark	|	John McGahern	|	Prayer books	|	1965	|	942	 /
+The Death of Lorca	|	Ian Gibson	|	Series	|	1971	|	649	 /
+The Decameron	|	Giovanni Boccaccio	|	Trilogy	|	1353	|	222	 /
+The Truth About Muhammad	|	Robert Spencer	|	Biographies	|	2006	|	434	 /
+The Diary of Anne Frank	|	Anne Frank	|	Autobiographies	|	1947	|	568	 /
+Dictionary of Modern Serbo-Croatian Language	|	Miloš Moskovljević	|	Fantasy	|		|	850	 /
+Doctor Zhivago	|	Boris Pasternak	|	Science fiction	|	1955-1988	|	527	 /
+Droll Stories	|	Honoré de Balzac	|	Satire	|	1837	|	231	 /
+The Devil's Discus	|	Rayne Kruger	|	Drama	|	1964	|	660	 /
+El Señor Presidente	|	Miguel Ángel Asturias	|	Action and Adventure	|	1946	|	556	 /
+Ecstasy and Me	|	Hedy Lamarr	|	Romance	|	1966	|	604	 /
+Elmer Gantry	|	Sinclair Lewis	|	Mystery	|	1927	|	534	 /
+Fanny Hill or Memoirs of a Woman of Pleasure	|	John Cleland	|	Horror	|	1748	|	120	 /
+Feast for the Seaweeds	|	Haidar Haidar	|	Self help	|	1983	|	821	 /
+The Federal Mafia	|	Irwin Schiff	|	Health	|	1992	|	972	 /
+Fifty Shade of Gray	|	E L James	|	Guide	|	2011	|	817	 /
+Frankenstein 	|	Mary Shelley	|	Travel	|	1818	|	867	 /
+The Fugitive (Perburuan) 	|	Pramoedya Ananta Toer	|	Children's	|	1950	|	151	 /
+The First Circle 	|	Aleksandr Solzhenitsyn	|	Religion, Spirituality & New Age	|	1968	|	583	 /
+The Gods Laugh on Mondays	|	Reza Khoshnazar	|	Science	|	1995	|	73	 /
+The Grapes of Wrath 	|	John Steinbeck	|	History	|	1939	|	1030	 /
+Great Soul: Mahatma Gandhi and His Struggle With India	|	Joseph Lelyveld	|	Math	|	2011	|	932	 /
+Green Eggs and Ham	|	Dr. Seuss	|	Anthology	|	1960	|	875	 /
+The Gulag Archipelago	|	Aleksandr Solzhenitsyn	|	Poetry	|	1973	|	766	 /
+Happy New Year	|	Rubem Fonseca	|	Encyclopedias	|	1975	|	489	 /
+The Heart of India	|	Alexander Campbell	|	Dictionaries	|	1958	|	286	 /
+He Himself	|	Edward Cangas	|	Comics	|	1748	|	58	 /
+How to make disposable silencers	|	Desert and Eliezer Flores	|	Art	|	1984	|	763	 /
+Howl 	|	Allen Ginsberg	|	Cookbooks	|	1955	|	948	 /
+The Hoax of the Twentieth Century	|	Arthur Butz	|	Diaries	|	1955	|	565	 /
+I Didn't Do It for You: How the World Betrayed a Small African Nation	|	Michaela Wrong	|	Journals	|	2005	|	93	 /
+Into the River	|	Ted Dawe	|	Prayer books	|	2012	|	407	 /
+Islam – A Concept of Political World Invasion	|	R. V. Bhasin	|	Series	|	2003	|	775	 /
+July's People 	|	Nadine Gordimer	|	Trilogy	|	1981	|	754	 /
+Jinnah: India-Partition-Independence	|	Jaswant Singh	|	Biographies	|	2009	|	680	 /
+Jinnah of Pakistan 	|	Stanley Wolpert	|	Autobiographies	|	1982	|	308	 /
+Jæger – i krig med eliten 	|	Thomas Rathsack	|	Fantasy	|	2009	|	465	 /
+The Jungle	|	Upton Sinclair	|	Science fiction	|	1906	|	832	 /
+Persepolis	|	Marjane Satrapi	|	Satire	|	2000	|	832	 /
+The King Never Smiles	|	Paul M. Handley	|	Drama	|	2006	|	734	 /
+Lady Chatterley's Lover	|	D. H. Lawrence	|	Action and Adventure	|	1928	|	385	 /
+Lajja 	|	Taslima Nasrin	|	Romance	|	1993	|	365	 /
+Lethal Marriage	|	Nick Pron	|	Mystery	|	1924	|	414	 /
+Les Moeurs	|	François-Vincent Toussaint	|	Horror	|	1930	|	544	 /
+Little Black Sambo	|	Helen Bannerman	|	Self help	|	1899	|	257	 /
+Lolita	|	Vladimir Nabokov	|	Health	|	1955	|	201	 /
+The Lonely Girl	|	Edna O'Brien	|	Guide	|	1962	|	185	 /
+Lord Horror 	|	David Britton	|	Travel	|	1990	|	1032	 /
+The Lottery	|	Shirley Jackson	|	Children's	|	1948	|	249	 /
+Love Comes Later	|	Mohanalakshmi Rajakumar	|	Religion, Spirituality & New Age	|	2014	|	995	 /
+Lysistrata	|	Aristophanes	|	Science	|	411	|	168	 /
+Madame Bovary	|	Gustave Flaubert	|	History	|	1856	|	728	 /
+The Man Who Wouldn't Stand Up	|	Jacob M. Appel	|	Math	|	2012	|	203	 /
+Mein Kampf	|	Adolf Hitler	|	Anthology	|	1925	|	557	 /
+Memoirs of Hecate County	|	Edmund Wilson	|	Poetry	|	1946	|	637	 /
+The Meritorious Price of Our Redemption	|	William Pynchon	|	Encyclopedias	|	1650	|	948	 /
+A Message to Man and Humanity	|	Aleksandar Cvetković	|	Dictionaries	|	1820	|	547	 /
+Mirror of the Polish Crown	|	Sebastian Miczyński	|	Comics	|	1618	|	56	 /
+Moll Flanders or The Fortunes and Misfortunes of the Famous Moll Flanders	|	Daniel Defoe	|	Art	|	1722	|	759	 /
+The Mountain Wreath	|	Petar II Petrović-Njegoš	|	Cookbooks	|	1847	|	607	 /
+My Father's Daughter	|	Hannah Pool	|	Diaries	|	2005	|	214	 /
+My Watch	|	Olusegun Obasanjo	|	Journals	|	2014	|	691	 /
+Naked Lunch 	|	William S. Burroughs	|	Prayer books	|	1959	|	1008	 /
+Naree	|	Humayun Azad	|	Series	|	1992	|	92	 /
+New Class	|	Milovan Đilas	|	Trilogy	|	1957	|	345	 /
+The Nickel-Plated-Feet Gang During the Occupation	|	Successors of Louis Forton	|	Biographies	|	1879	|	760	 /
+Nineteen Eighty-Four	|	George Orwell	|	Autobiographies	|	1949	|	877	 /
+fr:Noir Canada 	|	Alain Deneault	|	Fantasy	|	2008	|	432	 /
+Notre ami le roi	|	Gilles Perrault	|	Science fiction	|	1993	|	889	 /
+Nine Hours To Rama 	|	Stanley Wolpert	|	Satire	|	1962	|	820	 /
+The Naked and the Dead	|	Norman Mailer	|	Drama	|	1948	|	921	 /
+One Day of Life 	|	Manlio Argueta	|	Action and Adventure	|	1980	|	109	 /
+One Day in the Life of Ivan Denisovich (1962)	|	Alexander Solzhenitsyn	|	Romance	|	1962	|	1001	 /
+Onward Muslim Soldiers	|	Robert Spencer (author)	|	Mystery	|	2003	|	337	 /
+The 120 Days of Sodom (1789)	|	Marquis de Sade	|	Horror	|	1789	|	594	 /
+Operation Dark Heart (2010)	|	Army Reserve Lt. Col. Anthony Shaffer	|	Self help	|	2010	|	194	 /
+The Peaceful Pill Handbook (2007)	|	Philip Nitschke and Fiona Stewart	|	Health	|	2007	|	783	 /
+Peyton Place (1956)	|	Grace Metalious	|	Guide	|	1956	|	220	 /
+The Protocols of the Elders of Zion (1903)	|	Unknown	|	Travel	|	1903	|	1039	 /
+Përbindëshi (The Monster) (1965)	|	Ismail Kadare	|	Children's	|	1965	|	330	 /
+The Quran	|	Muslim	|	Religion, Spirituality & New Age	|	1000	|	165	 /
+Rangila Rasul (1927)	|	Pt. Chamupati	|	Science	|	1927	|	709	 /
+Rights of Man (1791)	|	Thomas Paine	|	History	|	1791	|	142	 /
+Rowena Goes Too Far (1931)	|	H. C. Asterley	|	Math	|	1931	|	966	 /
+The Satanic Verses (1988)	|	Salman Rushdie	|	Anthology	|	1988	|	812	 /
+The Satanic Bible (1969)	|	Anton LaVey	|	Poetry	|	1969	|	1005	 /
+Schindler's Ark (1982)	|	Thomas Keneally	|	Encyclopedias	|	1982	|	937	 /
+Scouting for the Reaper (2014)	|	J.M. Appel	|	Dictionaries	|	2014	|	468	 /
+Shivaji – Hindu King in Islamic India (2003)	|	James Laine	|	Art	|	2003	|	207	 /
+Smash and Grab: Annexation of Sikkim (1984)	|	Sunanda Datta-Ray	|	Cookbooks	|	1984	|	521	 /
+A Sneaking Suspicion (1995)	|	John Dickson	|	Diaries	|	1995	|	637	 /
+Snorri the Seal (1941)	|	Frithjof Sælen	|	Journals	|	1941	|	243	 /
+Soft Target: How the Indian Intelligence Service Penetrated Canada (1989)	|	Zuhair Kashmeri & Brian McAndrew	|	Prayer books	|	1989	|	98	 /
+Sophie's Choice (1979)	|	William Styron	|	Series	|	1979	|	639	 /
+A Spoon on Earth	|	Hyeon Gi-yeong	|	Trilogy	|	1924	|	959	 /
+Spycatcher (1985)	|	Peter Wright	|	Biographies	|	1985	|	510	 /
+Storytellers II	|	Boško Novaković	|	Autobiographies	|	1748	|	273	 /
+The Stud (1969)	|	Jackie Collins	|	Fantasy	|	1969	|	1044	 /
+Suicide mode d'emploi (1982)	|	Claude Guillon	|	Science fiction	|	1982	|	262	 /
+Thalia	|	Arius (AD 250 or 256 – 336)	|	Satire	|	1924	|	619	 /
+The True Furqan (1999)	|	"Al Saffee" and "Al Mahdee"	|	Drama	|	1999	|	443	 /
+Thoughts of a Corpse	|	Prvoslav Vujčić	|	Action and Adventure	|	1845	|	364	 /
+Tropic of Cancer (1934)	|	Henry Miller	|	Romance	|	1934	|	673	 /
+Uitgeverij Guggenheimer (1999)	|	Herman Brusselmans	|	Mystery	|	1999	|	335	 /
+Ulysses (1922)	|	James Joyce	|	Horror	|	1922	|	217	 /
+Uncle Tom's Cabin (1852)	|	Harriet Beecher Stowe	|	Self help	|	1852	|	170	 /
+Understanding Islam through Hadis (1982)	|	Ram Swarup	|	Health	|	1982	|	307	 /
+United States – Vietnam Relations, 1945–1967: A Study Prepared by the Department of Defense (1971)	|	Robert McNamara and the United States Department of Defense	|	Guide	|	1971	|	277	 /
+Unarmed Victory (1963)	|	Bertrand Russell	|	Travel	|	1963	|	214	 /
+Various works	|	Shen Congwen	|	Children's	|	1902–1988	|	640	 /
+Truth for Germany—The Question of Guilt for the Second World War	|	Udo Walendy	|	Religion, Spirituality & New Age	|	1968	|	419	 /
+The Well of Loneliness (1928)	|	Radclyffe Hall	|	Science	|	1928	|	483	 /
+White Niggers of America (1970)	|	Pierre Vallières	|	History	|	1970	|	343	 /
+Wild Swans (1993)	|	Jung Chang	|	Math	|	1993	|	1002	 /
+The World Is Full of Married Men (1968)	|	Jackie Collins	|	Anthology	|	1968	|	77	 /
+Year 501: The Conquest Continues (1993)	|	Noam Chomsky	|	Poetry	|	1993	|	808	 /
+Zhuan Falun (1993)	|	Li Hongzhi	|	Encyclopedias	|	1993	|	609	 /
+A Tale of Two Cities	|	Charles Dickens	|	Dictionaries	|	1859	|	974	 /
+Harry Potter and the Philosopher's Stone	|	J.K. Rowling	|	Comics	|	1997	|	528	 /
+The Hobbit	|	J. R. R. Tolkien	|	Art	|	1937	|	855	 /
+And Then There Were None	|	Agatha Christie	|	Cookbooks	|	1939	|	693	 /
+Alice in Wonderland	|	Lewis Carroll	|	Diaries	|	1865	|	515	 /
+The Lion, the Witch and the Wardrobe	|	C. S. Lewis	|	Journals	|	1950	|	98	 /
+She: A History of Adventure	|	H. Rider Haggard	|	Prayer books	|	1887	|	64	 /
+The Da Vinci Code	|	Dan Brown	|	Series	|	2003	|	275	 /
+Think and Grow Rich	|	Napoleon Hill	|	Trilogy	|	1937	|	287	 /
+Harry Potter and the Half-Blood Prince	|	J. K. Rowling	|	Biographies	|	2005	|	154	 /
+The Catcher in the Rye	|	J. D. Salinger	|	Autobiographies	|	1951	|	299	 /
+The Adventures of Sherlock Holmes	|	Arthur Conan Doyle	|	Fantasy	|	1887	|	509	 /
+Harry Potter and the Chamber of Secrets	|	J. K. Rowling	|	Science fiction	|	1998	|	545	 /
+Harry Potter and the Prisoner of Azkaban	|	J. K. Rowling	|	Satire	|	1998	|	666	 /
+Harry Potter and the Goblet of Fire	|	J. K. Rowling	|	Drama	|	2000	|	1025	 /
+Harry Potter and the Order of the Phoenix	|	J. K. Rowling	|	Action and Adventure	|	2003	|	470	 /
+Harry Potter and the Deathly Hallows	|	J. K. Rowling	|	Romance	|	2007	|	475	 /
+Lolita	|	Vladimir Nabokov	|	Mystery	|	1955	|	113	 /
+The Common Sense Book of Baby and Child Care	|	Dr. Benjamin Spock	|	Horror	|	1946	|	840	 /
+Anne of Green Gables	|	Lucy Maud Montgomery	|	Self help	|	1908	|	394	 /
+Black Beauty	|	Anna Sewell	|	Health	|	1877	|	129	 /
+The Eagle Has Landed	|	Jack Higgins	|	Guide	|	1975	|	836	 /
+Watership Down	|	Richard Adams	|	Travel	|	1972	|	352	 /
+The Hite Report	|	Shere Hite	|	Children's	|	1976	|	86	 /
+Charlotte's Web	|	E.B. White; illustrated by Garth Williams	|	Religion, Spirituality & New Age	|	1952	|	551	 /
+The Ginger Man	|	J. P. Donleavy	|	Science	|	1955	|	969	 /
+The Bridges of Madison County	|	Robert James Waller	|	History	|	1992	|	997	 /
+Ben-Hur: A Tale of the Christ	|	Lew Wallace	|	Math	|	1880	|	95	 /
+The Mark of Zorro	|	Johnston McCulley	|	Anthology	|	1924	|	642	 /
+The Tale of Peter Rabbit	|	Beatrix Potter	|	Poetry	|	1902	|	282	 /
+Jonathan Livingston Seagull	|	Richard Bach	|	Encyclopedias	|	1970	|	82	 /
+A Message to Garcia	|	Elbert Hubbard	|	Dictionaries	|	1899	|	567	 /
+Flowers in the Attic	|	V. C. Andrews	|	Comics	|	1979	|	507	 /
+To Kill a Mockingbird	|	Harper Lee	|	Art	|	1960	|	329	 /
+Angels & Demons	|	Dan Brown	|	Cookbooks	|	2000	|	981	 /
+You Can Heal Your Life	|	Louise Hay	|	Diaries	|	1984	|	100	 /
+Your Erroneous Zones	|	Wayne Dyer	|	Journals	|	1976	|	960	 /
+The Late, Great Planet Earth	|	Hal Lindsey, C. C. Carlson	|	Prayer books	|	1970	|	469	 /
+Kane and Abel	|	Jeffrey Archer	|	Series	|	1979	|	473	 /
+In His Steps: What Would Jesus Do?	|	Charles M. Sheldon	|	Trilogy	|	1896	|	677	 /
+The Lost Symbol	|	Dan Brown	|	Biographies	|	2009	|	298	 /
+Valley of the Dolls	|	Jacqueline Susann	|	Autobiographies	|	1966	|	141	 /
+Gone with the Wind	|	Margaret Mitchell	|	Fantasy	|	1936	|	844	 /
+The Purpose Driven Life	|	Rick Warren	|	Science fiction	|	2002	|	199	 /
+The Thorn Birds	|	Colleen McCullough	|	Satire	|	1977	|	1008	 /
+The Revolt of Mamie Stover	|	William Bradford Huie	|	Drama	|	1951	|	444	 /
+The Very Hungry Caterpillar	|	Eric Carle	|	Action and Adventure	|	1969	|	391	 /
+Who Moved My Cheese?	|	Spencer Johnson	|	Romance	|	1998	|	497	 /
+The Great Gatsby	|	F. Scott Fitzgerald	|	Mystery	|	1925	|	1016	 /
+The Wind in the Willows	|	Kenneth Grahame	|	Horror	|	1908	|	462	 /
+1984	|	George Orwell	|	Self help	|	1949	|	959	 /
+The 7 Habits of Highly Effective People	|	Stephen R. Covey	|	Health	|	1989	|	100	 /
+The Celestine Prophecy	|	James Redfield	|	Guide	|	1993	|	990	 /
+The Hunger Games	|	Suzanne Collins	|	Travel	|	2008	|	624	 /
+The Godfather	|	Mario Puzo	|	Children's	|	1969	|	99	 /
+Love Story	|	Erich Segal	|	Religion, Spirituality & New Age	|	1970	|	288	 /
+The Happy Hooker: My Own Story	|	Xaviera Hollander	|	Science	|	1971	|	270	 /
+Jaws	|	Peter Benchley	|	History	|	1974	|	108	 /
+Love You Forever	|	Robert Munsch	|	Math	|	1986	|	584	 /
+The Women's Room	|	Marilyn French	|	Anthology	|	1977	|	764	 /
+What to Expect When You're Expecting	|	Arlene Eisenberg and Heidi Murkoff	|	Poetry	|	1984	|	286	 /
+The Adventures of Huckleberry Finn	|	Mark Twain	|	Encyclopedias	|	1885	|	136	 /
+The Secret Diary of Adrian Mole, Aged 13¾	|	Sue Townsend	|	Dictionaries	|	1982	|	867	 /
+Pride and Prejudice	|	Jane Austen	|	Comics	|	1813	|	310	 /
+Where the Wild Things Are	|	Maurice Sendak	|	Art	|	1963	|	1001	 /
+The Power of Positive Thinking	|	Norman Vincent Peale	|	Cookbooks	|	1952	|	350	 /
+The Shack	|	William P. Young	|	Diaries	|	2007	|	53	 /
+The Secret	|	Rhonda Byrne	|	Journals	|	2006	|	790	 /
+Fear of Flying	|	Erica Jong	|	Prayer books	|	1973	|	579	 /
+Dune	|	Frank Herbert	|	Series	|	1965	|	299	 /
+Charlie and the Chocolate Factory	|	Roald Dahl	|	Trilogy	|	1964	|	538	 /
+The Fault in Our Stars	|	John Green	|	Biographies	|	2012	|	949	 /
+Goodnight Moon	|	Margaret Wise Brown	|	Autobiographies	|	1947	|	733	 /
+Guess How Much I Love You	|	Sam McBratney	|	Fantasy	|	1994	|	152	 /
+Shōgun	|	James Clavell	|	Science fiction	|	1975	|	885	 /
+The Poky Little Puppy	|	Janette Sebring Lowrey	|	Satire	|	1942	|	499	 /
+The Pillars of the Earth	|	Ken Follett	|	Drama	|	1989	|	698	 /
+How to Win Friends and Influence People	|	Dale Carnegie	|	Action and Adventure	|	1936	|	971	 /
+The Grapes of Wrath	|	John Steinbeck	|	Romance	|	1939	|	148	 /
+The Horse Whisperer	|	Nicholas Evans	|	Mystery	|	1995	|	227	 /
+The Girl on the Train	|	Paula Hawkins	|	Horror	|	2015	|	591	 /
+The Hitchhiker's Guide to the Galaxy	|	Douglas Adams	|	Self help	|	1979	|	524	 /
+Tuesdays with Morrie	|	Mitch Albom	|	Health	|	1997	|	60	 /
+God's Little Acre	|	Erskine Caldwell	|	Guide	|	1933	|	855	 /
+A Wrinkle in Time	|	Madeleine L'Engle	|	Travel	|	1962	|	268	 /
+The Old Man and the Sea	|	Ernest Hemingway	|	Children's	|	1952	|	1001	 /
+The Outsiders	|	S. E. Hinton	|	Religion, Spirituality & New Age	|	1967	|	176	 /
+Life After Life	|	Raymond Moody	|	Science	|	1975	|	351	 /
+Peyton Place	|	Grace Metalious	|	History	|	1956	|	459	 /
+The Naked Ape	|	Desmond Morris	|	Math	|	1968	|	628	 /
+Things Fall Apart	|	Chinua Achebe	|	Anthology	|	1958	|	306	 /
+The Prophet	|	Khalil Gibran	|	Poetry	|	1923	|	1022	 /
+The Exorcist	|	William Peter Blatty	|	Encyclopedias	|	1971	|	969	 /
+The Gruffalo	|	Julia Donaldson	|	Dictionaries	|	1999	|	694	 /
+Catch-22	|	Joseph Heller	|	Comics	|	1961	|	180	 /
+Eye of the Needle	|	Ken Follett	|	Art	|	1978	|	645	 /
+A Brief History of Time	|	Stephen Hawking	|	Cookbooks	|	1988	|	310	 /
+The Cat in the Hat	|	Dr. Seuss	|	Diaries	|	1957	|	636	 /
+The Lovely Bones	|	Alice Sebold	|	Journals	|	2002	|	57	 /
+Wild Swans	|	Jung Chang	|	Prayer books	|	1992	|	478	 /
+The Kite Runner	|	Khaled Hosseini	|	Series	|	2003	|	437	 /
+The Total Woman	|	Marabel Morgan	|	Trilogy	|	1974	|	984	 /
+What Color is Your Parachute?	|	Richard Nelson Bolles	|	Biographies	|	1970	|	235	 /
+The Joy of Sex	|	Alex Comfort	|	Autobiographies	|	1972	|	610	 /
+The Gospel According to Peanuts	|	Robert L. Short	|	Fantasy	|	1965	|	465	 /
+Life of Pi	|	Yann Martel	|	Science fiction	|	2001	|	921	 /
+The Giver	|	Lois Lowry	|	Satire	|	1993	|	1026	 /
+The Front Runner	|	Patricia Nell Warren	|	Drama	|	1974	|	58	 /

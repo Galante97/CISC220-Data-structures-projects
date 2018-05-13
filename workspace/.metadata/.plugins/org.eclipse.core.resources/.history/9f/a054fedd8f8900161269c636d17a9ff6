@@ -1,0 +1,30 @@
+//============================================================================
+// Name        : Lab2.cpp
+// Author      : James Galante
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+#include <time.h>
+#include <stdlib.h>
+#include "lab2Lottery.hpp"
+
+int main() {
+	srand(time(NULL));
+	       Owner *me= makeOwner();
+	       int winners[3] = {0,0,0};
+	       getWinners (winners);
+	       for (int i = 0; i < 3; i++) {
+	             cout << winners[i] << endl;
+	}
+	findWinners(me, winners);
+	cout << "won with 1 number: "<< me->TotalWinners[0] << endl;
+	cout << "won with 2 numbers: " << me->TotalWinners[1] << endl;
+	cout << "won with 3 numbers: " << me->TotalWinners[2] << endl;
+	//cout << x << endl;
+	return 0;
+}

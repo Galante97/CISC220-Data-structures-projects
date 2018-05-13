@@ -1,0 +1,43 @@
+//============================================================================
+// Name        : matrix.cpp
+// Author      : James Galante
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+void createMatrix(int ***&mat);
+
+
+int main() {
+
+	a = -1;
+	b = -1;
+	c = - 1;
+
+	int *x;
+	int ***array3D;
+	array3D = new int**[x];
+
+//*//
+	int *size;
+	int ***ary = new int*[size];
+
+	//createMatrix(&arr3D);
+
+	return 0;
+}
+
+void createMatrix(int ***&mat) {
+	//int x = rand() % 5 + 2;
+	//int y = rand() % 5 + 2;
+	//int z = rand() % 5 + 2;
+
+
+	//out << x << " , " << y << " , " << z;
+
+
+}

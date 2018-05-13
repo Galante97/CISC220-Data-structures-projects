@@ -1,0 +1,14 @@
+14:09:45 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+
+14:09:46 Build Finished (took 524ms)
+

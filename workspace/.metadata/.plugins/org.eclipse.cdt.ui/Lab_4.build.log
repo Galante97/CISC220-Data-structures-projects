@@ -1,0 +1,17 @@
+17:28:39 **** Incremental Build of configuration Debug for project Lab_4 ****
+make all 
+Building target: Lab_4
+Invoking: MacOS X C++ Linker
+g++  -o "Lab_4"  ./src/BSTB.o ./src/Game.o ./src/Lab_4.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      Game::readTreeFromFile(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+      Game::getWords(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+  "BSTB::search(NodeTB*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      Game::checkWordsForScore(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Lab_4] Error 1
+
+17:28:39 Build Finished (took 204ms)
+

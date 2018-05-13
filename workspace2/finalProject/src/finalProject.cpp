@@ -1,0 +1,20 @@
+//============================================================================
+// Name        : finalProject.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include "setup.hpp"
+#include <iostream>
+#include <stdlib.h>
+using namespace std;
+
+int main() {
+
+	setup set("books.txt");
+	set.readFile();
+	return 0;
+
+}

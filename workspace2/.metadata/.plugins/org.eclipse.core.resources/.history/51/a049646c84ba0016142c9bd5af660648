@@ -1,0 +1,30 @@
+/*
+ * setup.hpp
+ *
+ *  Created on: Dec 4, 2016
+ *      Author: James
+ */
+
+#ifndef SETUP_HPP_
+#define SETUP_HPP_
+
+#include "bNode.hpp"
+#include "bookLL.hpp"
+#include <string>
+
+class setup {
+	string filename;
+	bookLL *bookDirectory;
+
+public:
+	setup(string f);
+	void readFile();
+	void setVars(string x);
+	string remove_spaces(string x);
+	void ();
+
+
+};
+
+
+#endif /* SETUP_HPP_ */

@@ -1,0 +1,23 @@
+/*
+ * menu.cpp
+ *
+ *  Created on: Dec 4, 2016
+ *      Author: James
+ */
+
+
+
+
+menu::menu() {
+
+	next = NULL;
+	prev = NULL;
+
+	bookTitle = t;
+	author = a;
+	category = c;
+	pages = p;
+	yearPublished = y;
+	count = 0;
+
+}

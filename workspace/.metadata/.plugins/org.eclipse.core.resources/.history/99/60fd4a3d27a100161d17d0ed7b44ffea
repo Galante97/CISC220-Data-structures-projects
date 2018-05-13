@@ -1,0 +1,37 @@
+/*
+ * NodeTB.cpp
+ *
+ *  Created on: Nov 2, 2016
+ *      Author: James
+ */
+
+
+
+#include "NodeTB.hpp"
+
+#include <iostream>
+#include <stdlib.h>
+using namespace std;
+
+
+NodeTB::LLNode(char x) {
+	data = x;
+	count = NULL;
+	code = NULL;
+
+	next = NULL;
+	prev = NULL;
+
+	left = NULL;
+	right = NULL;
+
+
+} //constructor
+
+LLNode::~LLNode() {
+	if (next != NULL) {
+		cout << "delete" << endl;
+
+	}
+}
+

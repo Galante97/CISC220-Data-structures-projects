@@ -1,0 +1,15 @@
+14:37:56 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../LLSE.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"LLSE.d" -MT"LLSE.o" -o "LLSE.o" "../LLSE.cpp"
+Finished building: ../LLSE.cpp
+ 
+Building target: Lab5
+Invoking: MacOS X C++ Linker
+g++  -o "Lab5"  ./Document.o ./LLSE.o ./Node.o ./SEMain.o   
+Finished building target: Lab5
+ 
+
+14:37:57 Build Finished (took 694ms)
+

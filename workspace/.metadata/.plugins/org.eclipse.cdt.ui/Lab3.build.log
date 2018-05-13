@@ -1,0 +1,31 @@
+14:09:44 **** Incremental Build of configuration Debug for project Lab3 ****
+make all 
+Building file: ../src/LLHuff.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLHuff.d" -MT"src/LLHuff.o" -o "src/LLHuff.o" "../src/LLHuff.cpp"
+../src/LLHuff.cpp:40:24: error: no matching constructor for initialization of 'LLNode'
+                LLNode *a_node = new LLNode("*");
+                                     ^      ~~~
+../src/LLNode.hpp:11:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [2]' to 'const LLNode' for 1st argument
+class LLNode {
+      ^
+../src/LLNode.hpp:25:2: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'char' for 1st argument
+        LLNode(char x);
+        ^
+../src/LLHuff.cpp:86:15: error: cannot initialize a parameter of type 'char' with an lvalue of type 'const char [2]'
+        pq->addFirst(" ", asciicode);
+                     ^~~
+../src/LLPQ.hpp:27:21: note: passing argument to parameter 'x' here
+        void addFirst(char x, int co);
+                           ^
+../src/LLHuff.cpp:93:20: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'int'
+        pq->addAtFirst(ch,asciicode);
+                          ^~~~~~~~~
+../src/LLPQ.hpp:28:30: note: passing argument to parameter 'co' here
+        void addAtFirst(char x, int co);
+                                    ^
+3 errors generated.
+make: *** [src/LLHuff.o] Error 1
+
+14:09:45 Build Finished (took 641ms)
+

@@ -1,0 +1,20 @@
+/*
+ * menu.cpp
+ *
+ *  Created on: Dec 4, 2016
+ *      Author: James
+ */
+
+#include "menu.hpp"
+#include <iostream>
+#include <string>
+using namespace std;
+
+menu::menu() {
+
+}
+
+void intializeMenu() {
+	cout
+
+}

@@ -1,0 +1,27 @@
+/*
+ * BSTB.cpp
+ *
+ *  Created on: Nov 2, 2016
+ *      Author: James
+ */
+
+
+#include "BSTB.hpp"
+
+#include <iostream>
+#include <stdlib.h>
+using namespace std;
+
+
+BSTB::BSTB() {
+
+
+} //constructor
+
+BSTB::~BSTB() {
+	if (next != NULL) {
+		cout << "delete" << endl;
+
+	}
+}
+

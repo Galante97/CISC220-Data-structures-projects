@@ -1,0 +1,2283 @@
+17:28:20 **** Build of configuration Debug for project Lab_4 ****
+make all 
+Building file: ../src/BSTB.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BSTB.d" -MT"src/BSTB.o" -o "src/BSTB.o" "../src/BSTB.cpp"
+Finished building: ../src/BSTB.cpp
+ 
+Building file: ../src/Game.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Game.d" -MT"src/Game.o" -o "src/Game.o" "../src/Game.cpp"
+../src/Game.cpp:44:24: warning: all paths through this function will call itself [-Winfinite-recursion]
+void Game::startGame() {
+                       ^
+1 warning generated.
+Finished building: ../src/Game.cpp
+ 
+Building file: ../src/Lab_4.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lab_4.d" -MT"src/Lab_4.o" -o "src/Lab_4.o" "../src/Lab_4.cpp"
+Finished building: ../src/Lab_4.cpp
+ 
+Building file: ../src/NodeTB.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NodeTB.d" -MT"src/NodeTB.o" -o "src/NodeTB.o" "../src/NodeTB.cpp"
+../src/NodeTB.cpp:17:11: warning: implicit conversion of NULL constant to 'unsigned char' [-Wnull-conversion]
+        height = NULL;
+               ~ ^~~~
+                 '\0'
+1 warning generated.
+Finished building: ../src/NodeTB.cpp
+ 
+Building target: Lab_4
+Invoking: MacOS X C++ Linker
+g++  -o "Lab_4"  ./src/BSTB.o ./src/Game.o ./src/Lab_4.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      Game::readTreeFromFile(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+      Game::getWords(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+  "BSTB::search(NodeTB*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      Game::checkWordsForScore(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Lab_4] Error 1
+17:28:26 **** Incremental Build of configuration Debug for project Lab_4 ****
+make all 
+Building target: Lab_4
+Invoking: MacOS X C++ Linker
+g++  -o "Lab_4"  ./src/BSTB.o ./src/Game.o ./src/Lab_4.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      Game::readTreeFromFile(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+      Game::getWords(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+  "BSTB::search(NodeTB*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      Game::checkWordsForScore(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Lab_4] Error 1
+17:28:39 **** Incremental Build of configuration Debug for project Lab_4 ****
+make all 
+Building target: Lab_4
+Invoking: MacOS X C++ Linker
+g++  -o "Lab_4"  ./src/BSTB.o ./src/Game.o ./src/Lab_4.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      Game::readTreeFromFile(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+      Game::getWords(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+  "BSTB::search(NodeTB*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      Game::checkWordsForScore(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Lab_4] Error 1
+17:33:20 **** Clean-only build of configuration Debug for project Lab4 ****
+make clean 
+rm -rf  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o  ./src/BSTB.d ./src/Game.d ./src/Main.d ./src/NodeTB.d  libLab4
+ 
+17:33:41 **** Build of configuration Debug for project Lab4 ****
+make all 
+Building file: ../src/BSTB.cpp
+Invoking: GCC C++ Compiler
+g++ -O2 -g -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BSTB.d" -MT"src/BSTB.o" -o "src/BSTB.o" "../src/BSTB.cpp"
+Finished building: ../src/BSTB.cpp
+ 
+Building file: ../src/Game.cpp
+Invoking: GCC C++ Compiler
+g++ -O2 -g -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Game.d" -MT"src/Game.o" -o "src/Game.o" "../src/Game.cpp"
+../src/Game.cpp:44:24: warning: all paths through this function will call itself [-Winfinite-recursion]
+void Game::startGame() {
+                       ^
+1 warning generated.
+Finished building: ../src/Game.cpp
+ 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O2 -g -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/NodeTB.cpp
+Invoking: GCC C++ Compiler
+g++ -O2 -g -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NodeTB.d" -MT"src/NodeTB.o" -o "src/NodeTB.o" "../src/NodeTB.cpp"
+../src/NodeTB.cpp:17:11: warning: implicit conversion of NULL constant to 'unsigned char' [-Wnull-conversion]
+        height = NULL;
+               ~ ^~~~
+                 '\0'
+1 warning generated.
+Finished building: ../src/NodeTB.cpp
+ 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      Game::readTreeFromFile(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+      Game::getWords(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+  "BSTB::search(NodeTB*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      Game::checkWordsForScore(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+17:33:49 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      Game::readTreeFromFile(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+      Game::getWords(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+  "BSTB::search(NodeTB*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      Game::checkWordsForScore(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+17:36:03 **** Incremental Build of configuration Debug for project Lab2 ****
+make all 
+make: Nothing to be done for `all'.
+17:36:04 **** Incremental Build of configuration Debug for project Lab3 ****
+make all 
+Building file: ../src/LLHuff.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLHuff.d" -MT"src/LLHuff.o" -o "src/LLHuff.o" "../src/LLHuff.cpp"
+../src/LLHuff.cpp:40:24: error: no matching constructor for initialization of 'LLNode'
+                LLNode *a_node = new LLNode("*");
+                                     ^      ~~~
+../src/LLNode.hpp:11:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [2]' to 'const LLNode' for 1st argument
+class LLNode {
+      ^
+../src/LLNode.hpp:25:2: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'char' for 1st argument
+        LLNode(char x);
+        ^
+../src/LLHuff.cpp:86:15: error: cannot initialize a parameter of type 'char' with an lvalue of type 'const char [2]'
+        pq->addFirst(" ", asciicode);
+                     ^~~
+../src/LLPQ.hpp:27:21: note: passing argument to parameter 'x' here
+        void addFirst(char x, int co);
+                           ^
+../src/LLHuff.cpp:93:20: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'int'
+        pq->addAtFirst(ch,asciicode);
+                          ^~~~~~~~~
+../src/LLPQ.hpp:28:30: note: passing argument to parameter 'co' here
+        void addAtFirst(char x, int co);
+                                    ^
+3 errors generated.
+make: *** [src/LLHuff.o] Error 1
+17:36:08 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      Game::readTreeFromFile(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+      Game::getWords(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+  "BSTB::search(NodeTB*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      Game::checkWordsForScore(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+17:36:09 **** Incremental Build of configuration Debug for project code Tester ****
+make all 
+make: Nothing to be done for `all'.
+17:36:09 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+17:36:12 **** Incremental Build of configuration Debug for project linkedList ****
+make all 
+make: Nothing to be done for `all'.
+17:36:14 **** Incremental Build of configuration Debug for project test123 ****
+make all 
+make: Nothing to be done for `all'.
+17:36:22 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      Game::readTreeFromFile(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+      Game::getWords(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+  "BSTB::search(NodeTB*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      Game::checkWordsForScore(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+17:37:06 **** Clean-only build of configuration Debug for project Lab4 ****
+make clean 
+rm -rf  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o  ./src/BSTB.d ./src/Game.d ./src/Main.d ./src/NodeTB.d  libLab4
+ 
+17:37:37 **** Build of configuration Debug for project Lab4 ****
+make all 
+Building file: ../src/BSTB.cpp
+Invoking: GCC C++ Compiler
+g++ -O2 -g -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BSTB.d" -MT"src/BSTB.o" -o "src/BSTB.o" "../src/BSTB.cpp"
+Finished building: ../src/BSTB.cpp
+ 
+Building file: ../src/Game.cpp
+Invoking: GCC C++ Compiler
+g++ -O2 -g -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Game.d" -MT"src/Game.o" -o "src/Game.o" "../src/Game.cpp"
+../src/Game.cpp:44:24: warning: all paths through this function will call itself [-Winfinite-recursion]
+void Game::startGame() {
+                       ^
+1 warning generated.
+Finished building: ../src/Game.cpp
+ 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O2 -g -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/NodeTB.cpp
+Invoking: GCC C++ Compiler
+g++ -O2 -g -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NodeTB.d" -MT"src/NodeTB.o" -o "src/NodeTB.o" "../src/NodeTB.cpp"
+../src/NodeTB.cpp:17:11: warning: implicit conversion of NULL constant to 'unsigned char' [-Wnull-conversion]
+        height = NULL;
+               ~ ^~~~
+                 '\0'
+1 warning generated.
+Finished building: ../src/NodeTB.cpp
+ 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      Game::readTreeFromFile(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+      Game::getWords(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+  "BSTB::search(NodeTB*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      Game::checkWordsForScore(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+17:55:07 **** Incremental Build of configuration Debug for project Lab2 ****
+make all 
+make: Nothing to be done for `all'.
+17:55:08 **** Incremental Build of configuration Debug for project Lab3 ****
+make all 
+Building file: ../src/LLHuff.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLHuff.d" -MT"src/LLHuff.o" -o "src/LLHuff.o" "../src/LLHuff.cpp"
+../src/LLHuff.cpp:40:24: error: no matching constructor for initialization of 'LLNode'
+                LLNode *a_node = new LLNode("*");
+                                     ^      ~~~
+../src/LLNode.hpp:11:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [2]' to 'const LLNode' for 1st argument
+class LLNode {
+      ^
+../src/LLNode.hpp:25:2: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'char' for 1st argument
+        LLNode(char x);
+        ^
+../src/LLHuff.cpp:86:15: error: cannot initialize a parameter of type 'char' with an lvalue of type 'const char [2]'
+        pq->addFirst(" ", asciicode);
+                     ^~~
+../src/LLPQ.hpp:27:21: note: passing argument to parameter 'x' here
+        void addFirst(char x, int co);
+                           ^
+../src/LLHuff.cpp:93:20: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'int'
+        pq->addAtFirst(ch,asciicode);
+                          ^~~~~~~~~
+../src/LLPQ.hpp:28:30: note: passing argument to parameter 'co' here
+        void addAtFirst(char x, int co);
+                                    ^
+3 errors generated.
+make: *** [src/LLHuff.o] Error 1
+17:55:08 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building file: ../src/BSTB.cpp
+Invoking: GCC C++ Compiler
+g++ -O2 -g -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BSTB.d" -MT"src/BSTB.o" -o "src/BSTB.o" "../src/BSTB.cpp"
+Finished building: ../src/BSTB.cpp
+ 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+  "BSTB::search(NodeTB*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+      Game::checkWordsForScore(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in Game.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+17:55:09 **** Incremental Build of configuration Debug for project code Tester ****
+make all 
+make: Nothing to be done for `all'.
+17:55:09 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+17:55:09 **** Incremental Build of configuration Debug for project linkedList ****
+make all 
+make: Nothing to be done for `all'.
+17:55:10 **** Incremental Build of configuration Debug for project test123 ****
+make all 
+make: Nothing to be done for `all'.
+17:55:31 **** Incremental Build of configuration Debug for project Lab2 ****
+make all 
+make: Nothing to be done for `all'.
+17:55:31 **** Incremental Build of configuration Debug for project Lab3 ****
+make all 
+Building file: ../src/LLHuff.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLHuff.d" -MT"src/LLHuff.o" -o "src/LLHuff.o" "../src/LLHuff.cpp"
+../src/LLHuff.cpp:40:24: error: no matching constructor for initialization of 'LLNode'
+                LLNode *a_node = new LLNode("*");
+                                     ^      ~~~
+../src/LLNode.hpp:11:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [2]' to 'const LLNode' for 1st argument
+class LLNode {
+      ^
+../src/LLNode.hpp:25:2: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'char' for 1st argument
+        LLNode(char x);
+        ^
+../src/LLHuff.cpp:86:15: error: cannot initialize a parameter of type 'char' with an lvalue of type 'const char [2]'
+        pq->addFirst(" ", asciicode);
+                     ^~~
+../src/LLPQ.hpp:27:21: note: passing argument to parameter 'x' here
+        void addFirst(char x, int co);
+                           ^
+../src/LLHuff.cpp:93:20: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'int'
+        pq->addAtFirst(ch,asciicode);
+                          ^~~~~~~~~
+../src/LLPQ.hpp:28:30: note: passing argument to parameter 'co' here
+        void addAtFirst(char x, int co);
+                                    ^
+3 errors generated.
+make: *** [src/LLHuff.o] Error 1
+17:55:32 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building file: ../src/BSTB.cpp
+Invoking: GCC C++ Compiler
+g++ -O2 -g -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BSTB.d" -MT"src/BSTB.o" -o "src/BSTB.o" "../src/BSTB.cpp"
+Finished building: ../src/BSTB.cpp
+ 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+17:55:33 **** Incremental Build of configuration Debug for project code Tester ****
+make all 
+make: Nothing to be done for `all'.
+17:55:33 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+17:55:33 **** Incremental Build of configuration Debug for project linkedList ****
+make all 
+make: Nothing to be done for `all'.
+17:55:33 **** Incremental Build of configuration Debug for project test123 ****
+make all 
+make: Nothing to be done for `all'.
+17:55:44 **** Clean-only build of configuration Debug for project Lab4 ****
+make clean 
+rm -rf  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o  ./src/BSTB.d ./src/Game.d ./src/Main.d ./src/NodeTB.d  libLab4
+ 
+17:55:49 **** Build of configuration Debug for project Lab4 ****
+make all 
+Building file: ../src/BSTB.cpp
+Invoking: GCC C++ Compiler
+g++ -O2 -g -Wall -c -fmessage-length=0 -MMD -MP -MF"src/BSTB.d" -MT"src/BSTB.o" -o "src/BSTB.o" "../src/BSTB.cpp"
+Finished building: ../src/BSTB.cpp
+ 
+Building file: ../src/Game.cpp
+Invoking: GCC C++ Compiler
+g++ -O2 -g -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Game.d" -MT"src/Game.o" -o "src/Game.o" "../src/Game.cpp"
+../src/Game.cpp:44:24: warning: all paths through this function will call itself [-Winfinite-recursion]
+void Game::startGame() {
+                       ^
+1 warning generated.
+Finished building: ../src/Game.cpp
+ 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O2 -g -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building file: ../src/NodeTB.cpp
+Invoking: GCC C++ Compiler
+g++ -O2 -g -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NodeTB.d" -MT"src/NodeTB.o" -o "src/NodeTB.o" "../src/NodeTB.cpp"
+../src/NodeTB.cpp:17:11: warning: implicit conversion of NULL constant to 'unsigned char' [-Wnull-conversion]
+        height = NULL;
+               ~ ^~~~
+                 '\0'
+1 warning generated.
+Finished building: ../src/NodeTB.cpp
+ 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+17:55:53 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+14:05:18 **** Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/Lab5.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lab5.d" -MT"src/Lab5.o" -o "src/Lab5.o" "../src/Lab5.cpp"
+Finished building: ../src/Lab5.cpp
+ 
+Building target: Lab5
+Invoking: MacOS X C++ Linker
+g++  -o "Lab5"  ./src/Lab5.o   
+Finished building target: Lab5
+ 
+14:05:31 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+14:05:36 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+make: Nothing to be done for `all'.
+14:22:51 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/Document.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Document.d" -MT"src/Document.o" -o "src/Document.o" "../src/Document.cpp"
+In file included from ../src/Document.cpp:8:
+../src/Document.hpp:17:15: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        string fw[48]={ "a",
+                     ^
+../src/Document.hpp:67:12: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        int fwlen = 48;
+                  ^
+2 warnings generated.
+Finished building: ../src/Document.cpp
+ 
+Building file: ../src/LLSE.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLSE.d" -MT"src/LLSE.o" -o "src/LLSE.o" "../src/LLSE.cpp"
+../src/LLSE.cpp:88:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/LLSE.cpp:92:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/LLSE.cpp:101:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+3 warnings generated.
+Finished building: ../src/LLSE.cpp
+ 
+Building file: ../src/Node.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Node.d" -MT"src/Node.o" -o "src/Node.o" "../src/Node.cpp"
+../src/Node.cpp:23:9: error: use of undeclared identifier 's'
+        word = s;
+               ^
+1 error generated.
+make: *** [src/Node.o] Error 1
+14:25:45 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/Node.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Node.d" -MT"src/Node.o" -o "src/Node.o" "../src/Node.cpp"
+../src/Node.cpp:23:9: error: use of undeclared identifier 's'
+        word = s;
+               ^
+1 error generated.
+make: *** [src/Node.o] Error 1
+15:02:07 **** Incremental Build of configuration Debug for project Lab2 ****
+make all 
+make: Nothing to be done for `all'.
+15:02:07 **** Incremental Build of configuration Debug for project Lab3 ****
+make all 
+Building file: ../src/LLHuff.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLHuff.d" -MT"src/LLHuff.o" -o "src/LLHuff.o" "../src/LLHuff.cpp"
+../src/LLHuff.cpp:40:24: error: no matching constructor for initialization of 'LLNode'
+                LLNode *a_node = new LLNode("*");
+                                     ^      ~~~
+../src/LLNode.hpp:11:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [2]' to 'const LLNode' for 1st argument
+class LLNode {
+      ^
+../src/LLNode.hpp:25:2: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'char' for 1st argument
+        LLNode(char x);
+        ^
+../src/LLHuff.cpp:86:15: error: cannot initialize a parameter of type 'char' with an lvalue of type 'const char [2]'
+        pq->addFirst(" ", asciicode);
+                     ^~~
+../src/LLPQ.hpp:27:21: note: passing argument to parameter 'x' here
+        void addFirst(char x, int co);
+                           ^
+../src/LLHuff.cpp:93:20: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'int'
+        pq->addAtFirst(ch,asciicode);
+                          ^~~~~~~~~
+../src/LLPQ.hpp:28:30: note: passing argument to parameter 'co' here
+        void addAtFirst(char x, int co);
+                                    ^
+3 errors generated.
+make: *** [src/LLHuff.o] Error 1
+15:02:08 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+15:02:09 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/Document.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Document.d" -MT"src/Document.o" -o "src/Document.o" "../src/Document.cpp"
+In file included from ../src/Document.cpp:8:
+../src/Document.hpp:18:15: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        string fw[48]={ "a",
+                     ^
+../src/Document.hpp:68:12: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        int fwlen = 48;
+                  ^
+2 warnings generated.
+Finished building: ../src/Document.cpp
+ 
+Building file: ../src/LLSE.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLSE.d" -MT"src/LLSE.o" -o "src/LLSE.o" "../src/LLSE.cpp"
+../src/LLSE.cpp:102:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/LLSE.cpp:111:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+2 warnings generated.
+Finished building: ../src/LLSE.cpp
+ 
+Building file: ../src/Node.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Node.d" -MT"src/Node.o" -o "src/Node.o" "../src/Node.cpp"
+../src/Node.cpp:23:9: error: use of undeclared identifier 's'
+        word = s;
+               ^
+1 error generated.
+make: *** [src/Node.o] Error 1
+15:02:11 **** Incremental Build of configuration Debug for project code Tester ****
+make all 
+make: Nothing to be done for `all'.
+15:02:11 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+15:02:11 **** Incremental Build of configuration Debug for project linkedList ****
+make all 
+make: Nothing to be done for `all'.
+15:02:11 **** Incremental Build of configuration Debug for project test123 ****
+make all 
+make: Nothing to be done for `all'.
+15:22:29 **** Incremental Build of configuration Debug for project Lab2 ****
+make all 
+make: Nothing to be done for `all'.
+15:22:29 **** Incremental Build of configuration Debug for project Lab3 ****
+make all 
+Building file: ../src/LLHuff.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLHuff.d" -MT"src/LLHuff.o" -o "src/LLHuff.o" "../src/LLHuff.cpp"
+../src/LLHuff.cpp:40:24: error: no matching constructor for initialization of 'LLNode'
+                LLNode *a_node = new LLNode("*");
+                                     ^      ~~~
+../src/LLNode.hpp:11:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [2]' to 'const LLNode' for 1st argument
+class LLNode {
+      ^
+../src/LLNode.hpp:25:2: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'char' for 1st argument
+        LLNode(char x);
+        ^
+../src/LLHuff.cpp:86:15: error: cannot initialize a parameter of type 'char' with an lvalue of type 'const char [2]'
+        pq->addFirst(" ", asciicode);
+                     ^~~
+../src/LLPQ.hpp:27:21: note: passing argument to parameter 'x' here
+        void addFirst(char x, int co);
+                           ^
+../src/LLHuff.cpp:93:20: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'int'
+        pq->addAtFirst(ch,asciicode);
+                          ^~~~~~~~~
+../src/LLPQ.hpp:28:30: note: passing argument to parameter 'co' here
+        void addAtFirst(char x, int co);
+                                    ^
+3 errors generated.
+make: *** [src/LLHuff.o] Error 1
+15:22:31 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+15:22:31 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/LLSE.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLSE.d" -MT"src/LLSE.o" -o "src/LLSE.o" "../src/LLSE.cpp"
+../src/LLSE.cpp:90:9: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'int'
+                                int temp = current->word;
+                                    ^      ~~~~~~~~~~~~~
+1 error generated.
+make: *** [src/LLSE.o] Error 1
+15:22:32 **** Incremental Build of configuration Debug for project code Tester ****
+make all 
+make: Nothing to be done for `all'.
+15:22:32 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+15:22:33 **** Incremental Build of configuration Debug for project linkedList ****
+make all 
+make: Nothing to be done for `all'.
+15:22:33 **** Incremental Build of configuration Debug for project test123 ****
+make all 
+make: Nothing to be done for `all'.
+15:23:13 **** Incremental Build of configuration Debug for project Lab2 ****
+make all 
+make: Nothing to be done for `all'.
+15:23:13 **** Incremental Build of configuration Debug for project Lab3 ****
+make all 
+Building file: ../src/LLHuff.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLHuff.d" -MT"src/LLHuff.o" -o "src/LLHuff.o" "../src/LLHuff.cpp"
+../src/LLHuff.cpp:40:24: error: no matching constructor for initialization of 'LLNode'
+                LLNode *a_node = new LLNode("*");
+                                     ^      ~~~
+../src/LLNode.hpp:11:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [2]' to 'const LLNode' for 1st argument
+class LLNode {
+      ^
+../src/LLNode.hpp:25:2: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'char' for 1st argument
+        LLNode(char x);
+        ^
+../src/LLHuff.cpp:86:15: error: cannot initialize a parameter of type 'char' with an lvalue of type 'const char [2]'
+        pq->addFirst(" ", asciicode);
+                     ^~~
+../src/LLPQ.hpp:27:21: note: passing argument to parameter 'x' here
+        void addFirst(char x, int co);
+                           ^
+../src/LLHuff.cpp:93:20: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'int'
+        pq->addAtFirst(ch,asciicode);
+                          ^~~~~~~~~
+../src/LLPQ.hpp:28:30: note: passing argument to parameter 'co' here
+        void addAtFirst(char x, int co);
+                                    ^
+3 errors generated.
+make: *** [src/LLHuff.o] Error 1
+15:23:14 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+15:23:14 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/LLSE.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLSE.d" -MT"src/LLSE.o" -o "src/LLSE.o" "../src/LLSE.cpp"
+../src/LLSE.cpp:118:2: warning: control reaches end of non-void function [-Wreturn-type]
+        }
+        ^
+../src/LLSE.cpp:127:2: warning: control reaches end of non-void function [-Wreturn-type]
+        }
+        ^
+2 warnings generated.
+Finished building: ../src/LLSE.cpp
+ 
+Building file: ../src/Node.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Node.d" -MT"src/Node.o" -o "src/Node.o" "../src/Node.cpp"
+../src/Node.cpp:23:9: error: use of undeclared identifier 's'
+        word = s;
+               ^
+1 error generated.
+make: *** [src/Node.o] Error 1
+15:23:16 **** Incremental Build of configuration Debug for project code Tester ****
+make all 
+make: Nothing to be done for `all'.
+15:23:16 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+15:23:16 **** Incremental Build of configuration Debug for project linkedList ****
+make all 
+make: Nothing to be done for `all'.
+15:23:16 **** Incremental Build of configuration Debug for project test123 ****
+make all 
+make: Nothing to be done for `all'.
+19:20:30 **** Incremental Build of configuration Debug for project Lab2 ****
+make all 
+make: Nothing to be done for `all'.
+19:20:31 **** Incremental Build of configuration Debug for project Lab3 ****
+make all 
+Building file: ../src/LLHuff.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLHuff.d" -MT"src/LLHuff.o" -o "src/LLHuff.o" "../src/LLHuff.cpp"
+../src/LLHuff.cpp:40:24: error: no matching constructor for initialization of 'LLNode'
+                LLNode *a_node = new LLNode("*");
+                                     ^      ~~~
+../src/LLNode.hpp:11:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [2]' to 'const LLNode' for 1st argument
+class LLNode {
+      ^
+../src/LLNode.hpp:25:2: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'char' for 1st argument
+        LLNode(char x);
+        ^
+../src/LLHuff.cpp:86:15: error: cannot initialize a parameter of type 'char' with an lvalue of type 'const char [2]'
+        pq->addFirst(" ", asciicode);
+                     ^~~
+../src/LLPQ.hpp:27:21: note: passing argument to parameter 'x' here
+        void addFirst(char x, int co);
+                           ^
+../src/LLHuff.cpp:93:20: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'int'
+        pq->addAtFirst(ch,asciicode);
+                          ^~~~~~~~~
+../src/LLPQ.hpp:28:30: note: passing argument to parameter 'co' here
+        void addAtFirst(char x, int co);
+                                    ^
+3 errors generated.
+make: *** [src/LLHuff.o] Error 1
+19:20:32 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+19:20:32 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/LLSE.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLSE.d" -MT"src/LLSE.o" -o "src/LLSE.o" "../src/LLSE.cpp"
+../src/LLSE.cpp:117:6: error: cannot initialize a variable of type 'int' with an rvalue of type 'Node *'
+        int x = convertToArray();
+            ^   ~~~~~~~~~~~~~~~~
+../src/LLSE.cpp:124:16: error: cannot refer to class template 'array' without a template argument list
+                } while (x > array[j]);
+                             ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tuple:116:65: note: template is declared here
+template <class _Tp, size_t _Size> struct _LIBCPP_TYPE_VIS_ONLY array;
+                                                                ^
+../src/LLSE.cpp:128:16: error: cannot refer to class template 'array' without a template argument list
+                } while (x < array[i]);
+                             ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tuple:116:65: note: template is declared here
+template <class _Tp, size_t _Size> struct _LIBCPP_TYPE_VIS_ONLY array;
+                                                                ^
+../src/LLSE.cpp:131:11: error: cannot refer to class template 'array' without a template argument list
+                        temp = array[i];
+                               ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tuple:116:65: note: template is declared here
+template <class _Tp, size_t _Size> struct _LIBCPP_TYPE_VIS_ONLY array;
+                                                                ^
+../src/LLSE.cpp:132:4: error: C++ requires a type specifier for all declarations
+                        array[i] = array[j];
+                        ^
+5 errors generated.
+make: *** [src/LLSE.o] Error 1
+19:20:33 **** Incremental Build of configuration Debug for project code Tester ****
+make all 
+make: Nothing to be done for `all'.
+19:20:33 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+19:20:33 **** Incremental Build of configuration Debug for project linkedList ****
+make all 
+make: Nothing to be done for `all'.
+19:20:33 **** Incremental Build of configuration Debug for project test123 ****
+make all 
+make: Nothing to be done for `all'.
+19:24:21 **** Incremental Build of configuration Debug for project Lab2 ****
+make all 
+make: Nothing to be done for `all'.
+19:24:21 **** Incremental Build of configuration Debug for project Lab3 ****
+make all 
+Building file: ../src/LLHuff.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLHuff.d" -MT"src/LLHuff.o" -o "src/LLHuff.o" "../src/LLHuff.cpp"
+../src/LLHuff.cpp:40:24: error: no matching constructor for initialization of 'LLNode'
+                LLNode *a_node = new LLNode("*");
+                                     ^      ~~~
+../src/LLNode.hpp:11:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [2]' to 'const LLNode' for 1st argument
+class LLNode {
+      ^
+../src/LLNode.hpp:25:2: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'char' for 1st argument
+        LLNode(char x);
+        ^
+../src/LLHuff.cpp:86:15: error: cannot initialize a parameter of type 'char' with an lvalue of type 'const char [2]'
+        pq->addFirst(" ", asciicode);
+                     ^~~
+../src/LLPQ.hpp:27:21: note: passing argument to parameter 'x' here
+        void addFirst(char x, int co);
+                           ^
+../src/LLHuff.cpp:93:20: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'int'
+        pq->addAtFirst(ch,asciicode);
+                          ^~~~~~~~~
+../src/LLPQ.hpp:28:30: note: passing argument to parameter 'co' here
+        void addAtFirst(char x, int co);
+                                    ^
+3 errors generated.
+make: *** [src/LLHuff.o] Error 1
+19:24:21 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+19:24:22 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/LLSE.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLSE.d" -MT"src/LLSE.o" -o "src/LLSE.o" "../src/LLSE.cpp"
+../src/LLSE.cpp:117:7: error: no viable conversion from 'Node *' to 'Node'
+        Node x = convertToArray();
+             ^   ~~~~~~~~~~~~~~~~
+../src/Node.hpp:15:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'Node *' to 'const Node &' for 1st argument; dereference the argument with *
+class Node {
+      ^
+../src/Node.hpp:23:2: note: candidate constructor not viable: no known conversion from 'Node *' to 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') for 1st argument
+        Node(string w);
+        ^
+../src/LLSE.cpp:124:16: error: cannot refer to class template 'array' without a template argument list
+                } while (x > array[j]);
+                             ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tuple:116:65: note: template is declared here
+template <class _Tp, size_t _Size> struct _LIBCPP_TYPE_VIS_ONLY array;
+                                                                ^
+../src/LLSE.cpp:128:16: error: cannot refer to class template 'array' without a template argument list
+                } while (x < array[i]);
+                             ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tuple:116:65: note: template is declared here
+template <class _Tp, size_t _Size> struct _LIBCPP_TYPE_VIS_ONLY array;
+                                                                ^
+../src/LLSE.cpp:131:11: error: cannot refer to class template 'array' without a template argument list
+                        temp = array[i];
+                               ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tuple:116:65: note: template is declared here
+template <class _Tp, size_t _Size> struct _LIBCPP_TYPE_VIS_ONLY array;
+                                                                ^
+../src/LLSE.cpp:132:4: error: C++ requires a type specifier for all declarations
+                        array[i] = array[j];
+                        ^
+5 errors generated.
+make: *** [src/LLSE.o] Error 1
+19:24:22 **** Incremental Build of configuration Debug for project code Tester ****
+make all 
+make: Nothing to be done for `all'.
+19:24:22 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+19:24:23 **** Incremental Build of configuration Debug for project linkedList ****
+make all 
+make: Nothing to be done for `all'.
+19:24:23 **** Incremental Build of configuration Debug for project test123 ****
+make all 
+make: Nothing to be done for `all'.
+19:24:35 **** Incremental Build of configuration Debug for project Lab2 ****
+make all 
+make: Nothing to be done for `all'.
+19:24:35 **** Incremental Build of configuration Debug for project Lab3 ****
+make all 
+Building file: ../src/LLHuff.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLHuff.d" -MT"src/LLHuff.o" -o "src/LLHuff.o" "../src/LLHuff.cpp"
+../src/LLHuff.cpp:40:24: error: no matching constructor for initialization of 'LLNode'
+                LLNode *a_node = new LLNode("*");
+                                     ^      ~~~
+../src/LLNode.hpp:11:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [2]' to 'const LLNode' for 1st argument
+class LLNode {
+      ^
+../src/LLNode.hpp:25:2: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'char' for 1st argument
+        LLNode(char x);
+        ^
+../src/LLHuff.cpp:86:15: error: cannot initialize a parameter of type 'char' with an lvalue of type 'const char [2]'
+        pq->addFirst(" ", asciicode);
+                     ^~~
+../src/LLPQ.hpp:27:21: note: passing argument to parameter 'x' here
+        void addFirst(char x, int co);
+                           ^
+../src/LLHuff.cpp:93:20: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'int'
+        pq->addAtFirst(ch,asciicode);
+                          ^~~~~~~~~
+../src/LLPQ.hpp:28:30: note: passing argument to parameter 'co' here
+        void addAtFirst(char x, int co);
+                                    ^
+3 errors generated.
+make: *** [src/LLHuff.o] Error 1
+19:24:36 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+19:24:36 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/LLSE.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLSE.d" -MT"src/LLSE.o" -o "src/LLSE.o" "../src/LLSE.cpp"
+../src/LLSE.cpp:124:16: error: cannot refer to class template 'array' without a template argument list
+                } while (x > array[j]);
+                             ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tuple:116:65: note: template is declared here
+template <class _Tp, size_t _Size> struct _LIBCPP_TYPE_VIS_ONLY array;
+                                                                ^
+../src/LLSE.cpp:128:16: error: cannot refer to class template 'array' without a template argument list
+                } while (x < array[i]);
+                             ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tuple:116:65: note: template is declared here
+template <class _Tp, size_t _Size> struct _LIBCPP_TYPE_VIS_ONLY array;
+                                                                ^
+../src/LLSE.cpp:131:11: error: cannot refer to class template 'array' without a template argument list
+                        temp = array[i];
+                               ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__tuple:116:65: note: template is declared here
+template <class _Tp, size_t _Size> struct _LIBCPP_TYPE_VIS_ONLY array;
+                                                                ^
+../src/LLSE.cpp:132:4: error: C++ requires a type specifier for all declarations
+                        array[i] = array[j];
+                        ^
+4 errors generated.
+make: *** [src/LLSE.o] Error 1
+19:24:37 **** Incremental Build of configuration Debug for project code Tester ****
+make all 
+make: Nothing to be done for `all'.
+19:24:37 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+19:24:37 **** Incremental Build of configuration Debug for project linkedList ****
+make all 
+make: Nothing to be done for `all'.
+19:24:37 **** Incremental Build of configuration Debug for project test123 ****
+make all 
+make: Nothing to be done for `all'.
+19:28:24 **** Incremental Build of configuration Debug for project Lab2 ****
+make all 
+make: Nothing to be done for `all'.
+19:28:24 **** Incremental Build of configuration Debug for project Lab3 ****
+make all 
+Building file: ../src/LLHuff.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLHuff.d" -MT"src/LLHuff.o" -o "src/LLHuff.o" "../src/LLHuff.cpp"
+../src/LLHuff.cpp:40:24: error: no matching constructor for initialization of 'LLNode'
+                LLNode *a_node = new LLNode("*");
+                                     ^      ~~~
+../src/LLNode.hpp:11:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [2]' to 'const LLNode' for 1st argument
+class LLNode {
+      ^
+../src/LLNode.hpp:25:2: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'char' for 1st argument
+        LLNode(char x);
+        ^
+../src/LLHuff.cpp:86:15: error: cannot initialize a parameter of type 'char' with an lvalue of type 'const char [2]'
+        pq->addFirst(" ", asciicode);
+                     ^~~
+../src/LLPQ.hpp:27:21: note: passing argument to parameter 'x' here
+        void addFirst(char x, int co);
+                           ^
+../src/LLHuff.cpp:93:20: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'int'
+        pq->addAtFirst(ch,asciicode);
+                          ^~~~~~~~~
+../src/LLPQ.hpp:28:30: note: passing argument to parameter 'co' here
+        void addAtFirst(char x, int co);
+                                    ^
+3 errors generated.
+make: *** [src/LLHuff.o] Error 1
+19:28:25 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+19:28:25 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/LLSE.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLSE.d" -MT"src/LLSE.o" -o "src/LLSE.o" "../src/LLSE.cpp"
+../src/LLSE.cpp:117:6: error: no viable conversion from 'Node' to 'int'
+        int x = wordarr[beg];
+            ^   ~~~~~~~~~~~~
+../src/LLSE.cpp:131:9: error: assigning to 'int' from incompatible type 'Node'
+                        temp = wordarr[i];
+                             ^ ~~~~~~~~~~
+../src/LLSE.cpp:133:15: error: no viable overloaded '='
+                        wordarr[j] = temp;
+                        ~~~~~~~~~~ ^ ~~~~
+../src/Node.hpp:15:7: note: candidate function (the implicit copy assignment operator) not viable: no known conversion from 'int' to 'const Node' for 1st argument
+class Node {
+      ^
+3 errors generated.
+make: *** [src/LLSE.o] Error 1
+19:28:26 **** Incremental Build of configuration Debug for project code Tester ****
+make all 
+make: Nothing to be done for `all'.
+19:28:26 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+19:28:26 **** Incremental Build of configuration Debug for project linkedList ****
+make all 
+make: Nothing to be done for `all'.
+19:28:26 **** Incremental Build of configuration Debug for project test123 ****
+make all 
+make: Nothing to be done for `all'.
+19:31:11 **** Incremental Build of configuration Debug for project Lab2 ****
+make all 
+make: Nothing to be done for `all'.
+19:31:11 **** Incremental Build of configuration Debug for project Lab3 ****
+make all 
+Building file: ../src/LLHuff.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLHuff.d" -MT"src/LLHuff.o" -o "src/LLHuff.o" "../src/LLHuff.cpp"
+../src/LLHuff.cpp:40:24: error: no matching constructor for initialization of 'LLNode'
+                LLNode *a_node = new LLNode("*");
+                                     ^      ~~~
+../src/LLNode.hpp:11:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [2]' to 'const LLNode' for 1st argument
+class LLNode {
+      ^
+../src/LLNode.hpp:25:2: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'char' for 1st argument
+        LLNode(char x);
+        ^
+../src/LLHuff.cpp:86:15: error: cannot initialize a parameter of type 'char' with an lvalue of type 'const char [2]'
+        pq->addFirst(" ", asciicode);
+                     ^~~
+../src/LLPQ.hpp:27:21: note: passing argument to parameter 'x' here
+        void addFirst(char x, int co);
+                           ^
+../src/LLHuff.cpp:93:20: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'int'
+        pq->addAtFirst(ch,asciicode);
+                          ^~~~~~~~~
+../src/LLPQ.hpp:28:30: note: passing argument to parameter 'co' here
+        void addAtFirst(char x, int co);
+                                    ^
+3 errors generated.
+make: *** [src/LLHuff.o] Error 1
+19:31:12 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+19:31:12 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/Document.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Document.d" -MT"src/Document.o" -o "src/Document.o" "../src/Document.cpp"
+In file included from ../src/Document.cpp:8:
+../src/Document.hpp:18:15: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        string fw[48]={ "a",
+                     ^
+../src/Document.hpp:68:12: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        int fwlen = 48;
+                  ^
+2 warnings generated.
+Finished building: ../src/Document.cpp
+ 
+Building file: ../src/LLSE.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLSE.d" -MT"src/LLSE.o" -o "src/LLSE.o" "../src/LLSE.cpp"
+../src/LLSE.cpp:117:8: error: no viable conversion from 'Node' to 'Node *'
+        Node *x = wordarr[beg];
+              ^   ~~~~~~~~~~~~
+../src/LLSE.cpp:132:9: error: assigning to 'int' from incompatible type 'Node'
+                        temp = wordarr[i];
+                             ^ ~~~~~~~~~~
+../src/LLSE.cpp:134:15: error: no viable overloaded '='
+                        wordarr[j] = temp;
+                        ~~~~~~~~~~ ^ ~~~~
+../src/Node.hpp:15:7: note: candidate function (the implicit copy assignment operator) not viable: no known conversion from 'int' to 'const Node' for 1st argument
+class Node {
+      ^
+3 errors generated.
+make: *** [src/LLSE.o] Error 1
+19:31:13 **** Incremental Build of configuration Debug for project code Tester ****
+make all 
+make: Nothing to be done for `all'.
+19:31:14 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+19:31:14 **** Incremental Build of configuration Debug for project linkedList ****
+make all 
+make: Nothing to be done for `all'.
+19:31:14 **** Incremental Build of configuration Debug for project test123 ****
+make all 
+make: Nothing to be done for `all'.
+19:31:24 **** Incremental Build of configuration Debug for project Lab2 ****
+make all 
+make: Nothing to be done for `all'.
+19:31:25 **** Incremental Build of configuration Debug for project Lab3 ****
+make all 
+Building file: ../src/LLHuff.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLHuff.d" -MT"src/LLHuff.o" -o "src/LLHuff.o" "../src/LLHuff.cpp"
+../src/LLHuff.cpp:40:24: error: no matching constructor for initialization of 'LLNode'
+                LLNode *a_node = new LLNode("*");
+                                     ^      ~~~
+../src/LLNode.hpp:11:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [2]' to 'const LLNode' for 1st argument
+class LLNode {
+      ^
+../src/LLNode.hpp:25:2: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'char' for 1st argument
+        LLNode(char x);
+        ^
+../src/LLHuff.cpp:86:15: error: cannot initialize a parameter of type 'char' with an lvalue of type 'const char [2]'
+        pq->addFirst(" ", asciicode);
+                     ^~~
+../src/LLPQ.hpp:27:21: note: passing argument to parameter 'x' here
+        void addFirst(char x, int co);
+                           ^
+../src/LLHuff.cpp:93:20: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'int'
+        pq->addAtFirst(ch,asciicode);
+                          ^~~~~~~~~
+../src/LLPQ.hpp:28:30: note: passing argument to parameter 'co' here
+        void addAtFirst(char x, int co);
+                                    ^
+3 errors generated.
+make: *** [src/LLHuff.o] Error 1
+19:31:25 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+19:31:26 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/LLSE.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLSE.d" -MT"src/LLSE.o" -o "src/LLSE.o" "../src/LLSE.cpp"
+../src/LLSE.cpp:118:17: error: member reference type 'Node' is not a pointer; did you mean to use '.'?
+        int x_value = x->count;
+                      ~^~
+                       .
+../src/LLSE.cpp:125:14: error: invalid operands to binary expression ('Node' and 'Node')
+                } while (x > wordarr[j]);
+                         ~ ^ ~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/utility:438:1: note: candidate template ignored: could not match 'pair<type-parameter-0-0, type-parameter-0-1>' against 'Node'
+operator> (const pair<_T1,_T2>& __x, const pair<_T1,_T2>& __y)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:608:1: note: candidate template ignored: could not match 'reverse_iterator<type-parameter-0-0>' against 'Node'
+operator>(const reverse_iterator<_Iter1>& __x, const reverse_iterator<_Iter2>& __y)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:1012:1: note: candidate template ignored: could not match 'move_iterator<type-parameter-0-0>' against 'Node'
+operator>(const move_iterator<_Iter1>& __x, const move_iterator<_Iter2>& __y)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:1332:1: note: candidate template ignored: could not match '__wrap_iter<type-parameter-0-0>' against 'Node'
+operator>(const __wrap_iter<_Iter1>& __x, const __wrap_iter<_Iter2>& __y) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:1364:1: note: candidate template ignored: could not match '__wrap_iter<type-parameter-0-0>' against 'Node'
+operator>(const __wrap_iter<_Iter1>& __x, const __wrap_iter<_Iter1>& __y) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:2994:1: note: candidate template ignored: could not match 'unique_ptr<type-parameter-0-0, type-parameter-0-1>' against 'Node'
+operator> (const unique_ptr<_T1, _D1>& __x, const unique_ptr<_T2, _D2>& __y) {return __y < __x;}
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:3059:1: note: candidate template ignored: could not match 'unique_ptr<type-parameter-0-0, type-parameter-0-1>' against 'Node'
+operator>(const unique_ptr<_T1, _D1>& __x, nullptr_t)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:3067:1: note: candidate template ignored: could not match 'unique_ptr<type-parameter-0-0, type-parameter-0-1>' against 'Node'
+operator>(nullptr_t, const unique_ptr<_T1, _D1>& __x)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:4886:1: note: candidate template ignored: could not match 'shared_ptr<type-parameter-0-0>' against 'Node'
+operator>(const shared_ptr<_Tp>& __x, const shared_ptr<_Up>& __y) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:4958:1: note: candidate template ignored: could not match 'shared_ptr<type-parameter-0-0>' against 'Node'
+operator>(const shared_ptr<_Tp>& __x, nullptr_t) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:4966:1: note: candidate template ignored: could not match 'shared_ptr<type-parameter-0-0>' against 'Node'
+operator>(nullptr_t, const shared_ptr<_Tp>& __x) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3881:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'Node'
+operator> (const basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3890:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'Node'
+operator> (const basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3899:1: note: candidate template ignored: could not match 'const _CharT *' against 'Node'
+operator> (const _CharT* __lhs,
+^
+../src/LLSE.cpp:129:14: error: invalid operands to binary expression ('Node' and 'Node')
+                } while (x < wordarr[i]);
+                         ~ ^ ~~~~~~~~~~
+../src/LLSE.cpp:132:9: error: assigning to 'int' from incompatible type 'Node'
+                        temp = wordarr[i];
+                             ^ ~~~~~~~~~~
+../src/LLSE.cpp:134:15: error: no viable overloaded '='
+                        wordarr[j] = temp;
+                        ~~~~~~~~~~ ^ ~~~~
+../src/Node.hpp:15:7: note: candidate function (the implicit copy assignment operator) not viable: no known conversion from 'int' to 'const Node' for 1st argument
+class Node {
+      ^
+5 errors generated.
+make: *** [src/LLSE.o] Error 1
+19:31:26 **** Incremental Build of configuration Debug for project code Tester ****
+make all 
+make: Nothing to be done for `all'.
+19:31:26 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+19:31:27 **** Incremental Build of configuration Debug for project linkedList ****
+make all 
+make: Nothing to be done for `all'.
+19:31:27 **** Incremental Build of configuration Debug for project test123 ****
+make all 
+make: Nothing to be done for `all'.
+19:31:33 **** Incremental Build of configuration Debug for project Lab2 ****
+make all 
+make: Nothing to be done for `all'.
+19:31:33 **** Incremental Build of configuration Debug for project Lab3 ****
+make all 
+Building file: ../src/LLHuff.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLHuff.d" -MT"src/LLHuff.o" -o "src/LLHuff.o" "../src/LLHuff.cpp"
+../src/LLHuff.cpp:40:24: error: no matching constructor for initialization of 'LLNode'
+                LLNode *a_node = new LLNode("*");
+                                     ^      ~~~
+../src/LLNode.hpp:11:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [2]' to 'const LLNode' for 1st argument
+class LLNode {
+      ^
+../src/LLNode.hpp:25:2: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'char' for 1st argument
+        LLNode(char x);
+        ^
+../src/LLHuff.cpp:86:15: error: cannot initialize a parameter of type 'char' with an lvalue of type 'const char [2]'
+        pq->addFirst(" ", asciicode);
+                     ^~~
+../src/LLPQ.hpp:27:21: note: passing argument to parameter 'x' here
+        void addFirst(char x, int co);
+                           ^
+../src/LLHuff.cpp:93:20: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'int'
+        pq->addAtFirst(ch,asciicode);
+                          ^~~~~~~~~
+../src/LLPQ.hpp:28:30: note: passing argument to parameter 'co' here
+        void addAtFirst(char x, int co);
+                                    ^
+3 errors generated.
+make: *** [src/LLHuff.o] Error 1
+19:31:34 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+19:31:34 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/LLSE.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLSE.d" -MT"src/LLSE.o" -o "src/LLSE.o" "../src/LLSE.cpp"
+../src/LLSE.cpp:117:8: error: no viable conversion from 'Node' to 'Node *'
+        Node *x = wordarr[beg];
+              ^   ~~~~~~~~~~~~
+../src/LLSE.cpp:132:9: error: assigning to 'int' from incompatible type 'Node'
+                        temp = wordarr[i];
+                             ^ ~~~~~~~~~~
+../src/LLSE.cpp:134:15: error: no viable overloaded '='
+                        wordarr[j] = temp;
+                        ~~~~~~~~~~ ^ ~~~~
+../src/Node.hpp:15:7: note: candidate function (the implicit copy assignment operator) not viable: no known conversion from 'int' to 'const Node' for 1st argument
+class Node {
+      ^
+3 errors generated.
+make: *** [src/LLSE.o] Error 1
+19:31:35 **** Incremental Build of configuration Debug for project code Tester ****
+make all 
+make: Nothing to be done for `all'.
+19:31:35 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+Command canceled
+19:31:41 **** Incremental Build of configuration Debug for project Lab2 ****
+make all 
+make: Nothing to be done for `all'.
+19:31:41 **** Incremental Build of configuration Debug for project Lab3 ****
+make all 
+Building file: ../src/LLHuff.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLHuff.d" -MT"src/LLHuff.o" -o "src/LLHuff.o" "../src/LLHuff.cpp"
+../src/LLHuff.cpp:40:24: error: no matching constructor for initialization of 'LLNode'
+                LLNode *a_node = new LLNode("*");
+                                     ^      ~~~
+../src/LLNode.hpp:11:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [2]' to 'const LLNode' for 1st argument
+class LLNode {
+      ^
+../src/LLNode.hpp:25:2: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'char' for 1st argument
+        LLNode(char x);
+        ^
+../src/LLHuff.cpp:86:15: error: cannot initialize a parameter of type 'char' with an lvalue of type 'const char [2]'
+        pq->addFirst(" ", asciicode);
+                     ^~~
+../src/LLPQ.hpp:27:21: note: passing argument to parameter 'x' here
+        void addFirst(char x, int co);
+                           ^
+../src/LLHuff.cpp:93:20: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'int'
+        pq->addAtFirst(ch,asciicode);
+                          ^~~~~~~~~
+../src/LLPQ.hpp:28:30: note: passing argument to parameter 'co' here
+        void addAtFirst(char x, int co);
+                                    ^
+3 errors generated.
+make: *** [src/LLHuff.o] Error 1
+19:31:42 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+19:31:42 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/LLSE.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLSE.d" -MT"src/LLSE.o" -o "src/LLSE.o" "../src/LLSE.cpp"
+../src/LLSE.cpp:117:8: error: no viable conversion from 'Node' to 'Node *'
+        Node* x = wordarr[beg];
+              ^   ~~~~~~~~~~~~
+../src/LLSE.cpp:132:9: error: assigning to 'int' from incompatible type 'Node'
+                        temp = wordarr[i];
+                             ^ ~~~~~~~~~~
+../src/LLSE.cpp:134:15: error: no viable overloaded '='
+                        wordarr[j] = temp;
+                        ~~~~~~~~~~ ^ ~~~~
+../src/Node.hpp:15:7: note: candidate function (the implicit copy assignment operator) not viable: no known conversion from 'int' to 'const Node' for 1st argument
+class Node {
+      ^
+3 errors generated.
+make: *** [src/LLSE.o] Error 1
+19:31:43 **** Incremental Build of configuration Debug for project code Tester ****
+make all 
+make: Nothing to be done for `all'.
+19:31:43 **** Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+19:31:43 **** Incremental Build of configuration Debug for project linkedList ****
+make all 
+make: Nothing to be done for `all'.
+19:31:43 **** Incremental Build of configuration Debug for project test123 ****
+make all 
+make: Nothing to be done for `all'.
+19:33:47 **** Incremental Build of configuration Debug for project Lab2 ****
+make all 
+make: Nothing to be done for `all'.
+19:33:47 **** Incremental Build of configuration Debug for project Lab3 ****
+make all 
+Building file: ../src/LLHuff.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLHuff.d" -MT"src/LLHuff.o" -o "src/LLHuff.o" "../src/LLHuff.cpp"
+../src/LLHuff.cpp:40:24: error: no matching constructor for initialization of 'LLNode'
+                LLNode *a_node = new LLNode("*");
+                                     ^      ~~~
+../src/LLNode.hpp:11:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [2]' to 'const LLNode' for 1st argument
+class LLNode {
+      ^
+../src/LLNode.hpp:25:2: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'char' for 1st argument
+        LLNode(char x);
+        ^
+../src/LLHuff.cpp:86:15: error: cannot initialize a parameter of type 'char' with an lvalue of type 'const char [2]'
+        pq->addFirst(" ", asciicode);
+                     ^~~
+../src/LLPQ.hpp:27:21: note: passing argument to parameter 'x' here
+        void addFirst(char x, int co);
+                           ^
+../src/LLHuff.cpp:93:20: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'int'
+        pq->addAtFirst(ch,asciicode);
+                          ^~~~~~~~~
+../src/LLPQ.hpp:28:30: note: passing argument to parameter 'co' here
+        void addAtFirst(char x, int co);
+                                    ^
+3 errors generated.
+make: *** [src/LLHuff.o] Error 1
+19:33:47 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+19:33:48 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/LLSE.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLSE.d" -MT"src/LLSE.o" -o "src/LLSE.o" "../src/LLSE.cpp"
+../src/LLSE.cpp:118:19: error: member reference type 'int' is not a pointer
+        int x_value = x->count;
+                      ~  ^
+../src/LLSE.cpp:125:14: error: invalid operands to binary expression ('int' and 'Node')
+                } while (x > wordarr[j]);
+                         ~ ^ ~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/utility:438:1: note: candidate template ignored: could not match 'pair<type-parameter-0-0, type-parameter-0-1>' against 'int'
+operator> (const pair<_T1,_T2>& __x, const pair<_T1,_T2>& __y)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:608:1: note: candidate template ignored: could not match 'reverse_iterator<type-parameter-0-0>' against 'int'
+operator>(const reverse_iterator<_Iter1>& __x, const reverse_iterator<_Iter2>& __y)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:1012:1: note: candidate template ignored: could not match 'move_iterator<type-parameter-0-0>' against 'int'
+operator>(const move_iterator<_Iter1>& __x, const move_iterator<_Iter2>& __y)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:1332:1: note: candidate template ignored: could not match '__wrap_iter<type-parameter-0-0>' against 'int'
+operator>(const __wrap_iter<_Iter1>& __x, const __wrap_iter<_Iter2>& __y) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:1364:1: note: candidate template ignored: could not match '__wrap_iter<type-parameter-0-0>' against 'int'
+operator>(const __wrap_iter<_Iter1>& __x, const __wrap_iter<_Iter1>& __y) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:2994:1: note: candidate template ignored: could not match 'unique_ptr<type-parameter-0-0, type-parameter-0-1>' against 'int'
+operator> (const unique_ptr<_T1, _D1>& __x, const unique_ptr<_T2, _D2>& __y) {return __y < __x;}
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:3059:1: note: candidate template ignored: could not match 'unique_ptr<type-parameter-0-0, type-parameter-0-1>' against 'int'
+operator>(const unique_ptr<_T1, _D1>& __x, nullptr_t)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:3067:1: note: candidate template ignored: could not match 'unique_ptr<type-parameter-0-0, type-parameter-0-1>' against 'Node'
+operator>(nullptr_t, const unique_ptr<_T1, _D1>& __x)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:4886:1: note: candidate template ignored: could not match 'shared_ptr<type-parameter-0-0>' against 'int'
+operator>(const shared_ptr<_Tp>& __x, const shared_ptr<_Up>& __y) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:4958:1: note: candidate template ignored: could not match 'shared_ptr<type-parameter-0-0>' against 'int'
+operator>(const shared_ptr<_Tp>& __x, nullptr_t) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:4966:1: note: candidate template ignored: could not match 'shared_ptr<type-parameter-0-0>' against 'Node'
+operator>(nullptr_t, const shared_ptr<_Tp>& __x) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3881:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'int'
+operator> (const basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3890:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'int'
+operator> (const basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3899:1: note: candidate template ignored: could not match 'const _CharT *' against 'int'
+operator> (const _CharT* __lhs,
+^
+../src/LLSE.cpp:129:14: error: invalid operands to binary expression ('int' and 'Node')
+                } while (x < wordarr[i]);
+                         ~ ^ ~~~~~~~~~~
+../src/LLSE.cpp:132:9: error: assigning to 'int' from incompatible type 'Node'
+                        temp = wordarr[i];
+                             ^ ~~~~~~~~~~
+../src/LLSE.cpp:134:15: error: no viable overloaded '='
+                        wordarr[j] = temp;
+                        ~~~~~~~~~~ ^ ~~~~
+../src/Node.hpp:15:7: note: candidate function (the implicit copy assignment operator) not viable: no known conversion from 'int' to 'const Node' for 1st argument
+class Node {
+      ^
+5 errors generated.
+make: *** [src/LLSE.o] Error 1
+19:33:48 **** Incremental Build of configuration Debug for project code Tester ****
+make all 
+make: Nothing to be done for `all'.
+19:33:49 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+19:33:49 **** Incremental Build of configuration Debug for project linkedList ****
+make all 
+make: Nothing to be done for `all'.
+19:33:49 **** Incremental Build of configuration Debug for project test123 ****
+make all 
+make: Nothing to be done for `all'.
+19:34:21 **** Incremental Build of configuration Debug for project Lab2 ****
+make all 
+make: Nothing to be done for `all'.
+19:34:22 **** Incremental Build of configuration Debug for project Lab3 ****
+make all 
+Building file: ../src/LLHuff.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLHuff.d" -MT"src/LLHuff.o" -o "src/LLHuff.o" "../src/LLHuff.cpp"
+../src/LLHuff.cpp:40:24: error: no matching constructor for initialization of 'LLNode'
+                LLNode *a_node = new LLNode("*");
+                                     ^      ~~~
+../src/LLNode.hpp:11:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [2]' to 'const LLNode' for 1st argument
+class LLNode {
+      ^
+../src/LLNode.hpp:25:2: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'char' for 1st argument
+        LLNode(char x);
+        ^
+../src/LLHuff.cpp:86:15: error: cannot initialize a parameter of type 'char' with an lvalue of type 'const char [2]'
+        pq->addFirst(" ", asciicode);
+                     ^~~
+../src/LLPQ.hpp:27:21: note: passing argument to parameter 'x' here
+        void addFirst(char x, int co);
+                           ^
+../src/LLHuff.cpp:93:20: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'int'
+        pq->addAtFirst(ch,asciicode);
+                          ^~~~~~~~~
+../src/LLPQ.hpp:28:30: note: passing argument to parameter 'co' here
+        void addAtFirst(char x, int co);
+                                    ^
+3 errors generated.
+make: *** [src/LLHuff.o] Error 1
+19:34:22 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+19:34:22 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/LLSE.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLSE.d" -MT"src/LLSE.o" -o "src/LLSE.o" "../src/LLSE.cpp"
+../src/LLSE.cpp:117:22: error: member reference type 'Node' is not a pointer; did you mean to use '.'?
+        int x = wordarr[beg]->count;
+                ~~~~~~~~~~~~^~
+                            .
+../src/LLSE.cpp:124:14: error: invalid operands to binary expression ('int' and 'Node')
+                } while (x > wordarr[j]);
+                         ~ ^ ~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/utility:438:1: note: candidate template ignored: could not match 'pair<type-parameter-0-0, type-parameter-0-1>' against 'int'
+operator> (const pair<_T1,_T2>& __x, const pair<_T1,_T2>& __y)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:608:1: note: candidate template ignored: could not match 'reverse_iterator<type-parameter-0-0>' against 'int'
+operator>(const reverse_iterator<_Iter1>& __x, const reverse_iterator<_Iter2>& __y)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:1012:1: note: candidate template ignored: could not match 'move_iterator<type-parameter-0-0>' against 'int'
+operator>(const move_iterator<_Iter1>& __x, const move_iterator<_Iter2>& __y)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:1332:1: note: candidate template ignored: could not match '__wrap_iter<type-parameter-0-0>' against 'int'
+operator>(const __wrap_iter<_Iter1>& __x, const __wrap_iter<_Iter2>& __y) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:1364:1: note: candidate template ignored: could not match '__wrap_iter<type-parameter-0-0>' against 'int'
+operator>(const __wrap_iter<_Iter1>& __x, const __wrap_iter<_Iter1>& __y) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:2994:1: note: candidate template ignored: could not match 'unique_ptr<type-parameter-0-0, type-parameter-0-1>' against 'int'
+operator> (const unique_ptr<_T1, _D1>& __x, const unique_ptr<_T2, _D2>& __y) {return __y < __x;}
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:3059:1: note: candidate template ignored: could not match 'unique_ptr<type-parameter-0-0, type-parameter-0-1>' against 'int'
+operator>(const unique_ptr<_T1, _D1>& __x, nullptr_t)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:3067:1: note: candidate template ignored: could not match 'unique_ptr<type-parameter-0-0, type-parameter-0-1>' against 'Node'
+operator>(nullptr_t, const unique_ptr<_T1, _D1>& __x)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:4886:1: note: candidate template ignored: could not match 'shared_ptr<type-parameter-0-0>' against 'int'
+operator>(const shared_ptr<_Tp>& __x, const shared_ptr<_Up>& __y) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:4958:1: note: candidate template ignored: could not match 'shared_ptr<type-parameter-0-0>' against 'int'
+operator>(const shared_ptr<_Tp>& __x, nullptr_t) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:4966:1: note: candidate template ignored: could not match 'shared_ptr<type-parameter-0-0>' against 'Node'
+operator>(nullptr_t, const shared_ptr<_Tp>& __x) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3881:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'int'
+operator> (const basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3890:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'int'
+operator> (const basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3899:1: note: candidate template ignored: could not match 'const _CharT *' against 'int'
+operator> (const _CharT* __lhs,
+^
+../src/LLSE.cpp:128:14: error: invalid operands to binary expression ('int' and 'Node')
+                } while (x < wordarr[i]);
+                         ~ ^ ~~~~~~~~~~
+../src/LLSE.cpp:131:9: error: assigning to 'int' from incompatible type 'Node'
+                        temp = wordarr[i];
+                             ^ ~~~~~~~~~~
+../src/LLSE.cpp:133:15: error: no viable overloaded '='
+                        wordarr[j] = temp;
+                        ~~~~~~~~~~ ^ ~~~~
+../src/Node.hpp:15:7: note: candidate function (the implicit copy assignment operator) not viable: no known conversion from 'int' to 'const Node' for 1st argument
+class Node {
+      ^
+5 errors generated.
+make: *** [src/LLSE.o] Error 1
+19:34:23 **** Incremental Build of configuration Debug for project code Tester ****
+make all 
+make: Nothing to be done for `all'.
+19:34:23 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+19:34:23 **** Incremental Build of configuration Debug for project linkedList ****
+make all 
+make: Nothing to be done for `all'.
+19:34:24 **** Incremental Build of configuration Debug for project test123 ****
+make all 
+make: Nothing to be done for `all'.
+19:40:11 **** Incremental Build of configuration Debug for project Lab2 ****
+make all 
+make: Nothing to be done for `all'.
+19:40:12 **** Incremental Build of configuration Debug for project Lab3 ****
+make all 
+Building file: ../src/LLHuff.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLHuff.d" -MT"src/LLHuff.o" -o "src/LLHuff.o" "../src/LLHuff.cpp"
+../src/LLHuff.cpp:40:24: error: no matching constructor for initialization of 'LLNode'
+                LLNode *a_node = new LLNode("*");
+                                     ^      ~~~
+../src/LLNode.hpp:11:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [2]' to 'const LLNode' for 1st argument
+class LLNode {
+      ^
+../src/LLNode.hpp:25:2: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'char' for 1st argument
+        LLNode(char x);
+        ^
+../src/LLHuff.cpp:86:15: error: cannot initialize a parameter of type 'char' with an lvalue of type 'const char [2]'
+        pq->addFirst(" ", asciicode);
+                     ^~~
+../src/LLPQ.hpp:27:21: note: passing argument to parameter 'x' here
+        void addFirst(char x, int co);
+                           ^
+../src/LLHuff.cpp:93:20: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'int'
+        pq->addAtFirst(ch,asciicode);
+                          ^~~~~~~~~
+../src/LLPQ.hpp:28:30: note: passing argument to parameter 'co' here
+        void addAtFirst(char x, int co);
+                                    ^
+3 errors generated.
+make: *** [src/LLHuff.o] Error 1
+19:40:12 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+19:40:13 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/LLSE.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLSE.d" -MT"src/LLSE.o" -o "src/LLSE.o" "../src/LLSE.cpp"
+../src/LLSE.cpp:120:6: error: no viable conversion from 'Node' to 'int'
+        int pivot = wordarr[(beg + end) / 2];
+            ^       ~~~~~~~~~~~~~~~~~~~~~~~~
+../src/LLSE.cpp:128:8: error: assigning to 'int' from incompatible type 'Node'
+                        tmp = wordarr[i];
+                            ^ ~~~~~~~~~~
+../src/LLSE.cpp:130:15: error: no viable overloaded '='
+                        wordarr[j] = tmp;
+                        ~~~~~~~~~~ ^ ~~~
+../src/Node.hpp:15:7: note: candidate function (the implicit copy assignment operator) not viable: no known conversion from 'int' to 'const Node' for 1st argument
+class Node {
+      ^
+3 errors generated.
+make: *** [src/LLSE.o] Error 1
+19:40:13 **** Incremental Build of configuration Debug for project code Tester ****
+make all 
+make: Nothing to be done for `all'.
+19:40:13 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+19:40:14 **** Incremental Build of configuration Debug for project linkedList ****
+make all 
+make: Nothing to be done for `all'.
+19:40:14 **** Incremental Build of configuration Debug for project test123 ****
+make all 
+make: Nothing to be done for `all'.
+19:40:35 **** Incremental Build of configuration Debug for project Lab2 ****
+make all 
+make: Nothing to be done for `all'.
+19:40:35 **** Incremental Build of configuration Debug for project Lab3 ****
+make all 
+Building file: ../src/LLHuff.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLHuff.d" -MT"src/LLHuff.o" -o "src/LLHuff.o" "../src/LLHuff.cpp"
+../src/LLHuff.cpp:40:24: error: no matching constructor for initialization of 'LLNode'
+                LLNode *a_node = new LLNode("*");
+                                     ^      ~~~
+../src/LLNode.hpp:11:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [2]' to 'const LLNode' for 1st argument
+class LLNode {
+      ^
+../src/LLNode.hpp:25:2: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'char' for 1st argument
+        LLNode(char x);
+        ^
+../src/LLHuff.cpp:86:15: error: cannot initialize a parameter of type 'char' with an lvalue of type 'const char [2]'
+        pq->addFirst(" ", asciicode);
+                     ^~~
+../src/LLPQ.hpp:27:21: note: passing argument to parameter 'x' here
+        void addFirst(char x, int co);
+                           ^
+../src/LLHuff.cpp:93:20: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'int'
+        pq->addAtFirst(ch,asciicode);
+                          ^~~~~~~~~
+../src/LLPQ.hpp:28:30: note: passing argument to parameter 'co' here
+        void addAtFirst(char x, int co);
+                                    ^
+3 errors generated.
+make: *** [src/LLHuff.o] Error 1
+19:40:35 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+19:40:36 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/LLSE.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLSE.d" -MT"src/LLSE.o" -o "src/LLSE.o" "../src/LLSE.cpp"
+../src/LLSE.cpp:123:21: error: invalid operands to binary expression ('Node' and 'int')
+                while (wordarr[i] < pivot)
+                       ~~~~~~~~~~ ^ ~~~~~
+../src/LLSE.cpp:125:21: error: invalid operands to binary expression ('Node' and 'int')
+                while (wordarr[j] > pivot)
+                       ~~~~~~~~~~ ^ ~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/utility:438:1: note: candidate template ignored: could not match 'pair<type-parameter-0-0, type-parameter-0-1>' against 'Node'
+operator> (const pair<_T1,_T2>& __x, const pair<_T1,_T2>& __y)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:608:1: note: candidate template ignored: could not match 'reverse_iterator<type-parameter-0-0>' against 'Node'
+operator>(const reverse_iterator<_Iter1>& __x, const reverse_iterator<_Iter2>& __y)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:1012:1: note: candidate template ignored: could not match 'move_iterator<type-parameter-0-0>' against 'Node'
+operator>(const move_iterator<_Iter1>& __x, const move_iterator<_Iter2>& __y)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:1332:1: note: candidate template ignored: could not match '__wrap_iter<type-parameter-0-0>' against 'Node'
+operator>(const __wrap_iter<_Iter1>& __x, const __wrap_iter<_Iter2>& __y) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:1364:1: note: candidate template ignored: could not match '__wrap_iter<type-parameter-0-0>' against 'Node'
+operator>(const __wrap_iter<_Iter1>& __x, const __wrap_iter<_Iter1>& __y) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:2994:1: note: candidate template ignored: could not match 'unique_ptr<type-parameter-0-0, type-parameter-0-1>' against 'Node'
+operator> (const unique_ptr<_T1, _D1>& __x, const unique_ptr<_T2, _D2>& __y) {return __y < __x;}
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:3059:1: note: candidate template ignored: could not match 'unique_ptr<type-parameter-0-0, type-parameter-0-1>' against 'Node'
+operator>(const unique_ptr<_T1, _D1>& __x, nullptr_t)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:3067:1: note: candidate template ignored: could not match 'unique_ptr<type-parameter-0-0, type-parameter-0-1>' against 'int'
+operator>(nullptr_t, const unique_ptr<_T1, _D1>& __x)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:4886:1: note: candidate template ignored: could not match 'shared_ptr<type-parameter-0-0>' against 'Node'
+operator>(const shared_ptr<_Tp>& __x, const shared_ptr<_Up>& __y) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:4958:1: note: candidate template ignored: could not match 'shared_ptr<type-parameter-0-0>' against 'Node'
+operator>(const shared_ptr<_Tp>& __x, nullptr_t) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/memory:4966:1: note: candidate template ignored: could not match 'shared_ptr<type-parameter-0-0>' against 'int'
+operator>(nullptr_t, const shared_ptr<_Tp>& __x) _NOEXCEPT
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3881:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'Node'
+operator> (const basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3890:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'Node'
+operator> (const basic_string<_CharT, _Traits, _Allocator>& __lhs,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3899:1: note: candidate template ignored: could not match 'const _CharT *' against 'Node'
+operator> (const _CharT* __lhs,
+^
+../src/LLSE.cpp:128:8: error: assigning to 'int' from incompatible type 'Node'
+                        tmp = wordarr[i];
+                            ^ ~~~~~~~~~~
+../src/LLSE.cpp:130:15: error: no viable overloaded '='
+                        wordarr[j] = tmp;
+                        ~~~~~~~~~~ ^ ~~~
+../src/Node.hpp:15:7: note: candidate function (the implicit copy assignment operator) not viable: no known conversion from 'int' to 'const Node' for 1st argument
+class Node {
+      ^
+4 errors generated.
+make: *** [src/LLSE.o] Error 1
+19:40:36 **** Incremental Build of configuration Debug for project code Tester ****
+make all 
+make: Nothing to be done for `all'.
+19:40:36 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+19:40:37 **** Incremental Build of configuration Debug for project linkedList ****
+make all 
+make: Nothing to be done for `all'.
+19:40:37 **** Incremental Build of configuration Debug for project test123 ****
+make all 
+make: Nothing to be done for `all'.
+19:41:02 **** Incremental Build of configuration Debug for project Lab2 ****
+make all 
+make: Nothing to be done for `all'.
+19:41:02 **** Incremental Build of configuration Debug for project Lab3 ****
+make all 
+Building file: ../src/LLHuff.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLHuff.d" -MT"src/LLHuff.o" -o "src/LLHuff.o" "../src/LLHuff.cpp"
+../src/LLHuff.cpp:40:24: error: no matching constructor for initialization of 'LLNode'
+                LLNode *a_node = new LLNode("*");
+                                     ^      ~~~
+../src/LLNode.hpp:11:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [2]' to 'const LLNode' for 1st argument
+class LLNode {
+      ^
+../src/LLNode.hpp:25:2: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'char' for 1st argument
+        LLNode(char x);
+        ^
+../src/LLHuff.cpp:86:15: error: cannot initialize a parameter of type 'char' with an lvalue of type 'const char [2]'
+        pq->addFirst(" ", asciicode);
+                     ^~~
+../src/LLPQ.hpp:27:21: note: passing argument to parameter 'x' here
+        void addFirst(char x, int co);
+                           ^
+../src/LLHuff.cpp:93:20: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'int'
+        pq->addAtFirst(ch,asciicode);
+                          ^~~~~~~~~
+../src/LLPQ.hpp:28:30: note: passing argument to parameter 'co' here
+        void addAtFirst(char x, int co);
+                                    ^
+3 errors generated.
+make: *** [src/LLHuff.o] Error 1
+19:41:03 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+19:41:03 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/LLSE.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLSE.d" -MT"src/LLSE.o" -o "src/LLSE.o" "../src/LLSE.cpp"
+../src/LLSE.cpp:130:15: error: no viable overloaded '='
+                        wordarr[j] = tmp;
+                        ~~~~~~~~~~ ^ ~~~
+../src/Node.hpp:15:7: note: candidate function (the implicit copy assignment operator) not viable: no known conversion from 'int' to 'const Node' for 1st argument
+class Node {
+      ^
+1 error generated.
+make: *** [src/LLSE.o] Error 1
+19:41:04 **** Incremental Build of configuration Debug for project code Tester ****
+make all 
+make: Nothing to be done for `all'.
+19:41:04 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+19:41:04 **** Incremental Build of configuration Debug for project linkedList ****
+make all 
+make: Nothing to be done for `all'.
+19:41:04 **** Incremental Build of configuration Debug for project test123 ****
+make all 
+make: Nothing to be done for `all'.
+19:41:25 **** Incremental Build of configuration Debug for project Lab2 ****
+make all 
+make: Nothing to be done for `all'.
+19:41:25 **** Incremental Build of configuration Debug for project Lab3 ****
+make all 
+Building file: ../src/LLHuff.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLHuff.d" -MT"src/LLHuff.o" -o "src/LLHuff.o" "../src/LLHuff.cpp"
+../src/LLHuff.cpp:40:24: error: no matching constructor for initialization of 'LLNode'
+                LLNode *a_node = new LLNode("*");
+                                     ^      ~~~
+../src/LLNode.hpp:11:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [2]' to 'const LLNode' for 1st argument
+class LLNode {
+      ^
+../src/LLNode.hpp:25:2: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'char' for 1st argument
+        LLNode(char x);
+        ^
+../src/LLHuff.cpp:86:15: error: cannot initialize a parameter of type 'char' with an lvalue of type 'const char [2]'
+        pq->addFirst(" ", asciicode);
+                     ^~~
+../src/LLPQ.hpp:27:21: note: passing argument to parameter 'x' here
+        void addFirst(char x, int co);
+                           ^
+../src/LLHuff.cpp:93:20: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'int'
+        pq->addAtFirst(ch,asciicode);
+                          ^~~~~~~~~
+../src/LLPQ.hpp:28:30: note: passing argument to parameter 'co' here
+        void addAtFirst(char x, int co);
+                                    ^
+3 errors generated.
+make: *** [src/LLHuff.o] Error 1
+19:41:25 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+19:41:26 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/LLSE.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLSE.d" -MT"src/LLSE.o" -o "src/LLSE.o" "../src/LLSE.cpp"
+../src/LLSE.cpp:135:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/LLSE.cpp:154:2: warning: control reaches end of non-void function [-Wreturn-type]
+        }
+        ^
+2 warnings generated.
+Finished building: ../src/LLSE.cpp
+ 
+Building file: ../src/Node.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Node.d" -MT"src/Node.o" -o "src/Node.o" "../src/Node.cpp"
+../src/Node.cpp:23:9: error: use of undeclared identifier 's'
+        word = s;
+               ^
+1 error generated.
+make: *** [src/Node.o] Error 1
+19:41:27 **** Incremental Build of configuration Debug for project code Tester ****
+make all 
+make: Nothing to be done for `all'.
+19:41:27 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+19:41:27 **** Incremental Build of configuration Debug for project linkedList ****
+make all 
+make: Nothing to be done for `all'.
+19:41:27 **** Incremental Build of configuration Debug for project test123 ****
+make all 
+make: Nothing to be done for `all'.
+14:08:07 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/LLSE.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLSE.d" -MT"src/LLSE.o" -o "src/LLSE.o" "../src/LLSE.cpp"
+../src/LLSE.cpp:173:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+Finished building: ../src/LLSE.cpp
+ 
+Building file: ../src/Node.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Node.d" -MT"src/Node.o" -o "src/Node.o" "../src/Node.cpp"
+../src/Node.cpp:23:9: error: use of undeclared identifier 's'
+        word = s;
+               ^
+1 error generated.
+make: *** [src/Node.o] Error 1
+14:08:43 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/Node.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Node.d" -MT"src/Node.o" -o "src/Node.o" "../src/Node.cpp"
+../src/Node.cpp:23:9: error: use of undeclared identifier 's'
+        word = s;
+               ^
+1 error generated.
+make: *** [src/Node.o] Error 1
+14:09:23 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/Lab5.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lab5.d" -MT"src/Lab5.o" -o "src/Lab5.o" "../src/Lab5.cpp"
+In file included from ../src/Lab5.cpp:9:
+../src/Document.hpp:18:15: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        string fw[48]={ "a",
+                     ^
+../src/Document.hpp:68:12: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        int fwlen = 48;
+                  ^
+2 warnings generated.
+Finished building: ../src/Lab5.cpp
+ 
+Building file: ../src/Node.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Node.d" -MT"src/Node.o" -o "src/Node.o" "../src/Node.cpp"
+../src/Node.cpp:23:9: error: use of undeclared identifier 's'
+        word = s;
+               ^
+1 error generated.
+make: *** [src/Node.o] Error 1
+14:09:31 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/Node.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Node.d" -MT"src/Node.o" -o "src/Node.o" "../src/Node.cpp"
+../src/Node.cpp:23:9: error: use of undeclared identifier 's'
+        word = s;
+               ^
+1 error generated.
+make: *** [src/Node.o] Error 1
+14:09:44 **** Incremental Build of configuration Debug for project Lab2 ****
+make all 
+make: Nothing to be done for `all'.
+14:09:44 **** Incremental Build of configuration Debug for project Lab3 ****
+make all 
+Building file: ../src/LLHuff.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLHuff.d" -MT"src/LLHuff.o" -o "src/LLHuff.o" "../src/LLHuff.cpp"
+../src/LLHuff.cpp:40:24: error: no matching constructor for initialization of 'LLNode'
+                LLNode *a_node = new LLNode("*");
+                                     ^      ~~~
+../src/LLNode.hpp:11:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'const char [2]' to 'const LLNode' for 1st argument
+class LLNode {
+      ^
+../src/LLNode.hpp:25:2: note: candidate constructor not viable: no known conversion from 'const char [2]' to 'char' for 1st argument
+        LLNode(char x);
+        ^
+../src/LLHuff.cpp:86:15: error: cannot initialize a parameter of type 'char' with an lvalue of type 'const char [2]'
+        pq->addFirst(" ", asciicode);
+                     ^~~
+../src/LLPQ.hpp:27:21: note: passing argument to parameter 'x' here
+        void addFirst(char x, int co);
+                           ^
+../src/LLHuff.cpp:93:20: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'int'
+        pq->addAtFirst(ch,asciicode);
+                          ^~~~~~~~~
+../src/LLPQ.hpp:28:30: note: passing argument to parameter 'co' here
+        void addAtFirst(char x, int co);
+                                    ^
+3 errors generated.
+make: *** [src/LLHuff.o] Error 1
+14:09:45 **** Incremental Build of configuration Debug for project Lab4 ****
+make all 
+Building target: libLab4
+Invoking: MacOS X C++ Linker
+g++ -dynamiclib -o "libLab4"  ./src/BSTB.o ./src/Game.o ./src/Main.o ./src/NodeTB.o   
+Undefined symbols for architecture x86_64:
+  "BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, NodeTB*)", referenced from:
+      BSTB::insert(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >) in BSTB.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [libLab4] Error 1
+14:09:46 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/Node.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Node.d" -MT"src/Node.o" -o "src/Node.o" "../src/Node.cpp"
+../src/Node.cpp:23:9: error: use of undeclared identifier 's'
+        word = s;
+               ^
+1 error generated.
+make: *** [src/Node.o] Error 1
+14:09:46 **** Incremental Build of configuration Debug for project code Tester ****
+make all 
+make: Nothing to be done for `all'.
+14:09:47 **** Incremental Build of configuration Debug for project lab1 ****
+make all 
+make: Nothing to be done for `all'.
+14:09:47 **** Incremental Build of configuration Debug for project linkedList ****
+make all 
+make: Nothing to be done for `all'.
+14:09:47 **** Incremental Build of configuration Debug for project test123 ****
+make all 
+make: Nothing to be done for `all'.
+14:09:54 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/Node.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Node.d" -MT"src/Node.o" -o "src/Node.o" "../src/Node.cpp"
+../src/Node.cpp:23:9: error: use of undeclared identifier 's'
+        word = s;
+               ^
+1 error generated.
+make: *** [src/Node.o] Error 1
+14:11:42 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/LLSE.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/LLSE.d" -MT"src/LLSE.o" -o "src/LLSE.o" "../src/LLSE.cpp"
+../src/LLSE.cpp:137:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+../src/LLSE.cpp:173:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+2 warnings generated.
+Finished building: ../src/LLSE.cpp
+ 
+Building file: ../src/Node.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Node.d" -MT"src/Node.o" -o "src/Node.o" "../src/Node.cpp"
+../src/Node.cpp:23:9: error: use of undeclared identifier 's'
+        word = s;
+               ^
+1 error generated.
+make: *** [src/Node.o] Error 1
+14:13:03 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/Node.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Node.d" -MT"src/Node.o" -o "src/Node.o" "../src/Node.cpp"
+Finished building: ../src/Node.cpp
+ 
+Building file: ../src/SEMain.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SEMain.d" -MT"src/SEMain.o" -o "src/SEMain.o" "../src/SEMain.cpp"
+In file included from ../src/SEMain.cpp:8:
+../src/Document.hpp:18:15: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        string fw[48]={ "a",
+                     ^
+../src/Document.hpp:68:12: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        int fwlen = 48;
+                  ^
+2 warnings generated.
+Finished building: ../src/SEMain.cpp
+ 
+Building target: Lab5
+Invoking: MacOS X C++ Linker
+g++  -o "Lab5"  ./src/Document.o ./src/LLSE.o ./src/Lab5.o ./src/Node.o ./src/SEMain.o   
+duplicate symbol _main in:
+    ./src/Lab5.o
+    ./src/SEMain.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Lab5] Error 1
+14:13:15 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building target: Lab5
+Invoking: MacOS X C++ Linker
+g++  -o "Lab5"  ./src/Document.o ./src/LLSE.o ./src/Lab5.o ./src/Node.o ./src/SEMain.o   
+duplicate symbol _main in:
+    ./src/Lab5.o
+    ./src/SEMain.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Lab5] Error 1
+14:13:31 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/Node.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Node.d" -MT"src/Node.o" -o "src/Node.o" "../src/Node.cpp"
+../src/Node.cpp:23:9: error: use of undeclared identifier 's'
+        word = s;
+               ^
+1 error generated.
+make: *** [src/Node.o] Error 1
+14:15:21 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/Node.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Node.d" -MT"src/Node.o" -o "src/Node.o" "../src/Node.cpp"
+../src/Node.cpp:24:7: error: use of overloaded operator '=' is ambiguous (with operand types 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') and 'long')
+        word = NULL;
+        ~~~~ ^ ~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:1399:45: note: candidate function
+    _LIBCPP_INLINE_VISIBILITY basic_string& operator=(const value_type* __s) {return assign(__s);}
+                                            ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:1400:19: note: candidate function
+    basic_string& operator=(value_type __c);
+                  ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:1392:19: note: candidate function
+    basic_string& operator=(const basic_string& __str);
+                  ^
+1 error generated.
+make: *** [src/Node.o] Error 1
+14:15:34 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/Node.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Node.d" -MT"src/Node.o" -o "src/Node.o" "../src/Node.cpp"
+../src/Node.cpp:24:2: warning: expression result unused [-Wunused-value]
+        word;
+        ^~~~
+1 warning generated.
+Finished building: ../src/Node.cpp
+ 
+Building target: Lab5
+Invoking: MacOS X C++ Linker
+g++  -o "Lab5"  ./src/Document.o ./src/LLSE.o ./src/Lab5.o ./src/Node.o ./src/SEMain.o   
+duplicate symbol _main in:
+    ./src/Lab5.o
+    ./src/SEMain.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Lab5] Error 1
+14:16:19 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/Lab5.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Lab5.d" -MT"src/Lab5.o" -o "src/Lab5.o" "../src/Lab5.cpp"
+In file included from ../src/Lab5.cpp:9:
+../src/Document.hpp:18:15: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        string fw[48]={ "a",
+                     ^
+../src/Document.hpp:68:12: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        int fwlen = 48;
+                  ^
+2 warnings generated.
+Finished building: ../src/Lab5.cpp
+ 
+Building file: ../src/Node.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Node.d" -MT"src/Node.o" -o "src/Node.o" "../src/Node.cpp"
+Finished building: ../src/Node.cpp
+ 
+Building target: Lab5
+Invoking: MacOS X C++ Linker
+g++  -o "Lab5"  ./src/Document.o ./src/LLSE.o ./src/Lab5.o ./src/Node.o ./src/SEMain.o   
+duplicate symbol _main in:
+    ./src/Lab5.o
+    ./src/SEMain.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Lab5] Error 1
+14:16:25 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building target: Lab5
+Invoking: MacOS X C++ Linker
+g++  -o "Lab5"  ./src/Document.o ./src/LLSE.o ./src/Lab5.o ./src/Node.o ./src/SEMain.o   
+duplicate symbol _main in:
+    ./src/Lab5.o
+    ./src/SEMain.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Lab5] Error 1
+14:17:02 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/Node.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Node.d" -MT"src/Node.o" -o "src/Node.o" "../src/Node.cpp"
+../src/Node.cpp:23:9: error: use of undeclared identifier 's'
+        word = s;
+               ^
+1 error generated.
+make: *** [src/Node.o] Error 1

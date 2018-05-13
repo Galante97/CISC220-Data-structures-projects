@@ -1,0 +1,13 @@
+14:17:02 **** Incremental Build of configuration Debug for project Lab5 ****
+make all 
+Building file: ../src/Node.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Node.d" -MT"src/Node.o" -o "src/Node.o" "../src/Node.cpp"
+../src/Node.cpp:23:9: error: use of undeclared identifier 's'
+        word = s;
+               ^
+1 error generated.
+make: *** [src/Node.o] Error 1
+
+14:17:03 Build Finished (took 494ms)
+

@@ -1,0 +1,187 @@
+/*
+ * setup.cpp
+ *
+ *  Created on: Dec 4, 2016
+ *      Author: James
+ */
+
+#include "setup.hpp"
+#include <iostream>
+#include <string.h>
+#include <stdlib.h>
+#include <fstream>
+#include <chrono>
+using namespace std;
+
+#include <sstream>
+
+setup::setup(string f) {
+	filename = f;
+	bookDirectory = new bookLL();
+}
+
+void setup::readFile() {
+	cout << filename << endl;
+	ifstream infile(filename.c_str(), ios::in);     // open file
+	if (!infile.is_open()) {
+		return;
+	}
+
+	string eachElement = "";
+	string fileAsString = "";
+
+	while (infile >> eachElement /* >> author >> category >> published >> pages*/) {
+		fileAsString = fileAsString + " " + eachElement;
+
+	}
+
+	setVars(fileAsString);
+
+//bookDirectory->printLL();
+}
+
+void setup::setVars(string x) {
+	int switchNum = 1;
+	string activeSearch = "";
+
+	string title = "";    //case 1
+	string author = "";    //case 2
+	string category = "";    //case 3
+	string published = "";    //case 4
+	string pages = "";       //case 5
+
+	for (int i = 0; i < x.length(); i++) {
+
+		stringstream ss;
+		string compartor;
+		ss << x[i];
+		ss >> compartor;
+
+		if (compartor != "|" && compartor != "/") {
+			switch (switchNum) {
+			case 1:
+				title += x[i];
+				break;       // and exits the switch
+			case 2:
+				author += x[i];
+				break;
+			case 3:
+				category += x[i];
+				break;
+			case 4:
+				published += x[i];
+				break;
+			case 5:
+				pages += x[i];
+				//one book complete
+				break;
+			}
+
+		} else if (compartor == "/") {
+			// add book, create new book
+
+			string tTitle = remove_spaces(title);
+			string tAuthor = remove_spaces(author);
+			string tCategory = remove_spaces(category);
+			int intPublished = atoi(published.c_str());
+			int intPages = atoi(pages.c_str());
+
+			//add to directory
+			bookDirectory->insert(tTitle, tAuthor, tCategory, intPublished,
+					intPages);
+
+			title = "";    //case 1
+			author = "";    //case 2
+			category = "";    //case 3
+			published = "";    //case 4
+			pages = "";       //case 5
+
+			switchNum = 1;
+		} else {
+			switchNum++;
+		}
+
+	}
+
+	//bookDirectory->printLL();
+	intializeMenu();
+}
+
+string setup::remove_spaces(string x) {
+	int last = x.size() - 1;
+	while (last >= 0 && x[last] == ' ')
+		--last;
+	return x.substr(0, last + 1);
+}
+
+void setup::intializeMenu() {
+	string uChar;
+
+	cout << endl << "Welcome to the you library!" << endl;
+	cout << "There are already " << bookDirectory->size
+			<< " books in your library, search through it,"
+					"or add your own!" << endl << endl;
+	cout << "Type a letter to perform an action:" << endl;
+	cout << "A - To view all the books in this library in alphabetical order."
+			<< endl;
+	cout
+			<< "B - To view all the categories of books in this library, plus how many."
+			<< endl;
+	cout << "C - All the book from a range of years" << endl;
+	cout << "D - All the books of a certain range of pages" << endl;
+	cout << "E - Add your own book!" << endl;
+	cout << "F - General Search" << endl;
+	cin >> uChar;
+
+	if (uChar == "A") {
+		//print all books
+		cout << endl << "Here are all the books: " << endl;
+		bookDirectory->printLL();
+
+		cout << "-----------------------------" << endl;
+		intializeMenu();
+
+	} else if (uChar == "B") {
+		cout << "B" << endl;
+		bookDirectory->categoryView();
+
+		cout << "-----------------------------" << endl;
+		intializeMenu();
+
+	} else if (uChar == "C") {
+		cout << "C" << endl;
+		bookDirectory->rangeOfYears();
+
+		cout << "-----------------------------" << endl;
+		intializeMenu();
+
+	} else if (uChar == "D") {
+		cout << "D" << endl;
+		bookDirectory->rangeOfPages();
+
+		cout << "-----------------------------" << endl;
+		intializeMenu();
+
+	} else if (uChar == "E") {
+		cout << "E" << endl;
+		bookDirectory->userInsert();
+
+		cout << "-----------------------------" << endl;
+		intializeMenu();
+
+	} else if (uChar == "F") {
+		cout << "F" << endl;
+		bookDirectory->generalSearch();
+
+		cout << "-----------------------------" << endl;
+		intializeMenu();
+
+	} else if (uChar != "A" || uChar != "B" || uChar != "C" || uChar != "D"
+			|| uChar != "E" || uChar != "F") {
+		cout << "Invalid choice, pick again..." << endl;
+
+		intializeMenu();
+	}
+
+}
+

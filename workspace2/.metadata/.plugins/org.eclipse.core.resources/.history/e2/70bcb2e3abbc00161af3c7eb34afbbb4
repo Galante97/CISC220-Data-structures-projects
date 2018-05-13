@@ -1,0 +1,286 @@
+/*
+ 3 * bookLL.cpp
+ *
+ *  Created on: Dec 4, 2016
+ *      Author: James
+ */
+
+#include "bNode.hpp"
+#include "bookLL.hpp"
+#include <iostream>
+#include <stdlib.h>
+#include <string>
+#include <chrono>
+#include <sstream>
+#include <fstream>
+using namespace std;
+
+bookLL::bookLL() {
+	first = NULL;
+	last = NULL;
+	numberOfCategories = 0;
+	size = 0;
+}
+bookLL::~bookLL() {
+	bNode *tmp = first;
+	for (int i = 0; i < size; i++) {
+		tmp = first->next;
+		delete first;
+		first = tmp;
+	}
+}
+
+void bookLL::printLL() {
+	bNode *tmp = first;
+	while (tmp != NULL) {
+		cout << "Title: " << tmp->bookTitle << " Author: " << tmp->author
+				<< " Category: " << tmp->category << " Year Published: "
+				<< tmp->yearPublished << " Pages: " << tmp->pages << endl;
+		tmp = tmp->next;
+	}
+}
+
+void bookLL::addFirst(string t, string a, string c, int y, int p) {
+	first = new bNode(t, a, c, y, p);
+	last = first;
+	size = 1;
+}
+
+void bookLL::insert(string t, string a, string c, int y, int p) {
+	bNode *tmp = first;
+	bool categoryReconized = false;
+	if (tmp == NULL) {
+		addFirst(t, a, c, y, p);
+	} else {
+		for (int i = 0; i < size; i++) {
+			if (c == tmp->category) {
+				categoryReconized = true;
+				break;
+			}
+			tmp = tmp->next;
+		}
+		if (categoryReconized != true) {
+			numberOfCategories++;
+		}
+		tmp = first;
+		while (tmp != NULL && tmp->bookTitle < t) {
+			tmp = tmp->next;
+		}
+		if ((tmp != NULL) && (tmp->bookTitle == t)) {
+			tmp->count++;
+		} else {
+			bNode *tmp2 = new bNode(t, a, c, y, p);
+			if (tmp != NULL) {
+				if (tmp->prev != NULL) {
+					tmp->prev->next = tmp2;
+					tmp2->prev = tmp->prev;
+				} else {
+					first = tmp2;
+				}
+				tmp2->next = tmp;
+				tmp->prev = tmp2;
+			} else {
+				last->next = tmp2;
+				tmp2->prev = last;
+				last = tmp2;
+			}
+			size++;
+
+		}
+	}
+}
+
+void bookLL::categoryView() {
+	catNumbers *catArr = new catNumbers[numberOfCategories];
+	cout << "There are " << numberOfCategories << " categories: " << endl;
+	bNode *tmp = first;
+	bool itemFound = false;
+
+	int k = 0;
+	for (int i = 0; i < size; i++) {
+		for (int j = 0; j <= i; j++) {
+			if (tmp->category == catArr[j].cat) {
+				itemFound = true;
+				catArr[j].count++;
+			}
+		}
+
+		if (itemFound == false) {
+			catArr[k].cat = tmp->category;
+			catArr[k].count++;
+			k++;
+		}
+
+		itemFound = false;
+		tmp = tmp->next;
+	}
+
+	for (int i = 0; i < numberOfCategories; i++) {
+		cout << i + 1 << ") " << "Category:" << catArr[i].cat
+				<< "    Books in: " << catArr[i].count << endl;
+	}
+	cout << "Type category number to view books in that category, "
+			"type anything else to return to menu: " << endl;
+	int input;
+	cin >> input;
+
+	if (!cin) {
+		// user didn't input a number
+		cin.clear(); // reset failbit
+		cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //skip bad input
+		// next, request user reinput
+	} else {
+		cout << input << endl;
+		input--;
+
+		string choosenCat = catArr[input].cat;
+
+		bNode *tmp = first;
+		while (tmp != NULL) {
+			if (tmp->category == choosenCat) {
+				cout << "Title: " << tmp->bookTitle << " Author: "
+						<< tmp->author << " Category: " << tmp->category
+						<< " Year Published: " << tmp->yearPublished
+						<< " Pages: " << tmp->pages << endl;
+			}
+			tmp = tmp->next;
+		}
+
+		cout << "Type anything to return: " << endl;
+		string dummy;
+		cin >> dummy;
+	}
+
+}
+
+void bookLL::rangeOfYears() {
+	string lowerRange;
+	string upperRange;
+	bNode *tmp = first;
+
+	cout << "Please enter a year: " << endl;
+	cin >> lowerRange;
+	cout << "Please enter another year: " << endl;
+	cin >> upperRange;
+
+	int intLower = atoi(lowerRange.c_str());
+	int intUpper = atoi(upperRange.c_str());
+
+	if (intLower > intUpper) {
+		int tempInt = intLower;
+		intLower = intUpper;
+		intUpper = tempInt;
+	}
+
+	cout << "Here are all the books from " << intLower << "-" << intUpper << ":"
+			<< endl;
+
+	while (tmp != NULL) {
+		if (tmp->yearPublished >= intLower && tmp->yearPublished <= intUpper) {
+			cout << " Year Published: " << tmp->yearPublished << "   Title:"
+					<< tmp->bookTitle << "   Author:" << tmp->author
+					<< "   Category:" << tmp->category << "   Pages:"
+					<< tmp->pages << endl;
+			tmp = tmp->next;
+		} else {
+			tmp = tmp->next;
+		}
+
+	}
+
+}
+
+void bookLL::rangeOfPages() {
+	string lowerRange;
+	string upperRange;
+	bNode *tmp = first;
+
+	cout << "Please enter a page number: " << endl;
+	cin >> lowerRange;
+	cout << "Please enter another page number: " << endl;
+	cin >> upperRange;
+
+	int intLower = atoi(lowerRange.c_str());
+	int intUpper = atoi(upperRange.c_str());
+
+	if (intLower > intUpper) {
+		int tempInt = intLower;
+		intLower = intUpper;
+		intUpper = tempInt;
+	}
+
+	cout << "Here are all the books from pages " << intLower << "-" << intUpper
+			<< ":" << endl;
+
+	while (tmp != NULL) {
+		if (tmp->pages >= intLower && tmp->pages <= intUpper) {
+			cout << "Pages: " << tmp->pages << "   Title:" << tmp->bookTitle
+					<< "   Author:" << tmp->author << "   Category:"
+					<< tmp->category << "   Year Published:"
+					<< tmp->yearPublished << endl;
+			tmp = tmp->next;
+		} else {
+			tmp = tmp->next;
+		}
+
+	}
+
+}
+
+void bookLL::userInsert() {
+	string title;
+	string author;
+	string category;
+	string pages;
+	string year;
+	cout << "Please Enter your books title: " << endl;
+	std::getline(std::cin, title);
+
+	cout << "Please Enter your books author: " << endl;
+	std::getline(std::cin, author);
+
+	cout << "Please Enter your books category: " << endl;
+	std::getline(std::cin, category);
+
+	cout << "Please Enter your books page length: " << endl;
+	std::getline(std::cin, pages);
+
+	cout << "Please Enter your books publication year: " << endl;
+	std::getline(std::cin, year);
+
+	int intPages = atoi(pages.c_str());
+	int intYear = atoi(year.c_str());
+	title = " " + title;
+
+	insert(title, author, category, intYear, intPages);
+
+	cout << endl << "Your book is now in the library!" << endl;
+}
+
+void bookLL::generalSearch() {
+	string searchTerm;
+	cout
+			<< "search something about a book (i.e, a title, author, year, pages): "
+			<< endl;
+	std::getline(std::cin, searchTerm);
+	;
+
+	bNode *tmp = first;
+
+	while (tmp != NULL) {
+		string sPages = std::to_string(tmp->pages);
+		string sYear = std::to_string(tmp->yearPublished);
+
+		if (tmp->bookTitle.find(searchTerm) != string::npos
+				|| tmp->author.find(searchTerm) != string::npos
+				|| tmp->category.find(searchTerm) != string::npos
+				|| sYear.find(searchTerm) != string::npos
+				|| sPages.find(searchTerm) != string::npos) {
+			cout << "Title:" << tmp->bookTitle << "   Author:" << tmp->author
+					<< "   Category:" << tmp->category << "   Year Published:"
+					<< tmp->yearPublished << "   Pages:" << tmp->pages << endl;
+		}
+		tmp = tmp->next;
+	}
+
+}
